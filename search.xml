@@ -20,25 +20,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>trst</title>
-    <url>/post/3239496697/</url>
-    <content><![CDATA[<p>Abstract：</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客文章编写</title>
-    <url>/post/2492903111/</url>
-    <content><![CDATA[<p>Abstract：</p>
-<span id="more"></span>  
-<h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="博客建立"><a href="#博客建立" class="headerlink" title="博客建立"></a>博客建立</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n text_name</span><br></pre></td></tr></table></figure>
-<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
-<h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1>]]></content>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Next</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>文本测试</title>
     <url>/post/1952948729/</url>
     <content><![CDATA[<p>简介：文本测试</p>
@@ -97,5 +78,31 @@
         <tag>Hexo</tag>
         <tag>Next</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>博客文章编写</title>
+    <url>/post/2492903111/</url>
+    <content><![CDATA[<p>Abstract：</p>
+<span id="more"></span>  
+<h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="博客建立"><a href="#博客建立" class="headerlink" title="博客建立"></a>博客建立</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n text_name</span><br></pre></td></tr></table></figure>
+<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
+<h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1><h2 id="优化文章永久链接为数字编号"><a href="#优化文章永久链接为数字编号" class="headerlink" title="优化文章永久链接为数字编号"></a>优化文章永久链接为数字编号</h2><p>安装abbrlink插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<p>_config.yml修改配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/</span><br><span class="line">#permalink_defaults:</span><br><span class="line">permalink: posts/:abbrlink/</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32 #support crc16(default) and crc32</span><br><span class="line">  rep: dec   #support dec(default) and hex</span><br></pre></td></tr></table></figure>
+<p>重新部署后不同参数的链接可有如下效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crc16 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/66c8.html</span><br><span class="line"></span><br><span class="line">crc16 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/65535.html</span><br><span class="line">复制</span><br><span class="line">crc32 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/8ddf18fb.html</span><br><span class="line"></span><br><span class="line">crc32 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/1690090958.html</span><br></pre></td></tr></table></figure>
+<p>参考文章：<a href="https://cloud.tencent.com/developer/article/1662763">Hexo博客进阶教程（一）| 优化文章永久链接为数字编号</a></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>trst</title>
+    <url>/post/3239496697/</url>
+    <content><![CDATA[<p>Abstract：</p>
+]]></content>
   </entry>
 </search>
