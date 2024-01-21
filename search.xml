@@ -20,6 +20,48 @@
 ]]></content>
   </entry>
   <entry>
+    <title>博客文章编写</title>
+    <url>/post/2492903111/</url>
+    <content><![CDATA[<p>Abstract：博客文章的编写过程，及布局、美化</p>
+<span id="more"></span>  
+<h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n [layout_name] text_name #默认为post的布局</span><br></pre></td></tr></table></figure>
+<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
+<h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1><h2 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h2><p>在文章希望预览的内容后面输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
+<p>即可在首页完成预览<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_1.png"></p>
+<h2 id="优化文章默认格式"><a href="#优化文章默认格式" class="headerlink" title="优化文章默认格式"></a>优化文章默认格式</h2><p>scaffolds文件夹内存在三个自带的Front-matter文件，可自行修改，目前的布局设定为:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">abbrlink:</span><br><span class="line">---</span><br><span class="line">Abstract：</span><br><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
+<p>其实就是文章建立后的默认内容啦</p>
+<h2 id="优化文章永久链接为数字编号"><a href="#优化文章永久链接为数字编号" class="headerlink" title="优化文章永久链接为数字编号"></a>优化文章永久链接为数字编号</h2><p>安装abbrlink插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<p>_config.yml修改配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/</span><br><span class="line">#permalink_defaults:</span><br><span class="line">permalink: posts/:abbrlink/</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32 #support crc16(default) and crc32</span><br><span class="line">  rep: dec   #support dec(default) and hex</span><br></pre></td></tr></table></figure>
+<p>重新部署后不同参数的链接可有如下效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crc16 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/66c8.html</span><br><span class="line"></span><br><span class="line">crc16 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/65535.html</span><br><span class="line">复制</span><br><span class="line">crc32 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/8ddf18fb.html</span><br><span class="line"></span><br><span class="line">crc32 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/1690090958.html</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加文章字数和阅读时长"><a href="#添加文章字数和阅读时长" class="headerlink" title="添加文章字数和阅读时长"></a>添加文章字数和阅读时长</h2><p>安装hexo-symbols-count-time插件：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
+<p>修改hexo配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  symbols: true                # 文章字数统计</span><br><span class="line">  time: true                   # 文章阅读时长</span><br><span class="line">  total_symbols: true          # 站点总字数统计</span><br><span class="line">  total_time: true             # 站点总阅读时长</span><br><span class="line">  exclude_codeblock: false     # 排除代码字数统计</span><br><span class="line">  awl: 2                       # 字平均单词长度 - Average Word Length</span><br><span class="line">  wpm: 275                     # 字/每份</span><br><span class="line">  suffix: &quot;mins.&quot;              # 后缀/单位</span><br></pre></td></tr></table></figure>
+<p>修改NexT主题配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span><br><span class="line"># 设置博客单词统计</span><br><span class="line">symbols_count_time:</span><br><span class="line">  # 是否另起一行（true的话不和发表时间等同一行）</span><br><span class="line">  separated_meta: true</span><br><span class="line">  # 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）</span><br><span class="line">  item_text_post: true</span><br><span class="line">  # 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）</span><br><span class="line">  item_text_total: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>效果图：<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_2.png"></p>
+<p>参考文章：<br>1.<a href="https://cloud.tencent.com/developer/article/1662763">Hexo博客进阶教程（一）| 优化文章永久链接为数字编号</a><br>2.<a href="https://zhuanlan.zhihu.com/p/106060640">个人博客第8篇——优化主题（持续更新）</a><br>3.<a href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</a></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/post/3632233996/</url>
+    <content><![CDATA[<p>Abstract：</p>
+<span id="more"></span>  
+<p>参考文章：</p>
+]]></content>
+  </entry>
+  <entry>
     <title>文本测试</title>
     <url>/post/1952948729/</url>
     <content><![CDATA[<p>简介：文本测试</p>
@@ -73,48 +115,6 @@
 </tr>
 </tbody></table>
 <p>引自<a href="https://www.runoob.com/markdown/md-advance.html">菜鸟教程</a></p>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/post/3632233996/</url>
-    <content><![CDATA[<p>Abstract：</p>
-<span id="more"></span>  
-<p>参考文章：</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客文章编写</title>
-    <url>/post/2492903111/</url>
-    <content><![CDATA[<p>Abstract：博客文章的编写过程，及布局、美化</p>
-<span id="more"></span>  
-<h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n [layout_name] text_name #默认为post的布局</span><br></pre></td></tr></table></figure>
-<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
-<h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1><h2 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h2><p>在文章希望预览的内容后面输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
-<p>即可在首页完成预览<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_1.png"></p>
-<h2 id="优化文章默认格式"><a href="#优化文章默认格式" class="headerlink" title="优化文章默认格式"></a>优化文章默认格式</h2><p>scaffolds文件夹内存在三个自带的Front-matter文件，可自行修改，目前的布局设定为:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">abbrlink:</span><br><span class="line">---</span><br><span class="line">Abstract：</span><br><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
-<p>其实就是文章建立后的默认内容啦</p>
-<h2 id="优化文章永久链接为数字编号"><a href="#优化文章永久链接为数字编号" class="headerlink" title="优化文章永久链接为数字编号"></a>优化文章永久链接为数字编号</h2><p>安装abbrlink插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<p>_config.yml修改配置</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/</span><br><span class="line">#permalink_defaults:</span><br><span class="line">permalink: posts/:abbrlink/</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32 #support crc16(default) and crc32</span><br><span class="line">  rep: dec   #support dec(default) and hex</span><br></pre></td></tr></table></figure>
-<p>重新部署后不同参数的链接可有如下效果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crc16 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/66c8.html</span><br><span class="line"></span><br><span class="line">crc16 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/65535.html</span><br><span class="line">复制</span><br><span class="line">crc32 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/8ddf18fb.html</span><br><span class="line"></span><br><span class="line">crc32 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/1690090958.html</span><br></pre></td></tr></table></figure>
-<h2 id="添加文章字数和阅读时长"><a href="#添加文章字数和阅读时长" class="headerlink" title="添加文章字数和阅读时长"></a>添加文章字数和阅读时长</h2><p>安装hexo-wordcount插件：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-wordcount@2 --save</span><br></pre></td></tr></table></figure>
-<p>修改hexo配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  symbols: true                # 文章字数统计</span><br><span class="line">  time: true                   # 文章阅读时长</span><br><span class="line">  total_symbols: true          # 站点总字数统计</span><br><span class="line">  total_time: true             # 站点总阅读时长</span><br><span class="line">  exclude_codeblock: false     # 排除代码字数统计</span><br></pre></td></tr></table></figure>
-<p>但是会报错：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Error: Unable to call `symbolsCount`, which is undefined or falsey</span><br></pre></td></tr></table></figure>
-<p>修改NexT主题配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span><br><span class="line"># 设置博客单词统计</span><br><span class="line">symbols_count_time:</span><br><span class="line">  # 是否另起一行（true的话不和发表时间等同一行）</span><br><span class="line">  separated_meta: true</span><br><span class="line">  # 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）</span><br><span class="line">  item_text_post: true</span><br><span class="line">  # 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）</span><br><span class="line">  item_text_total: false</span><br><span class="line">  # 平均字长</span><br><span class="line">  awl: 4</span><br><span class="line">  # 每分钟阅读字数</span><br><span class="line">  wpm: 275</span><br></pre></td></tr></table></figure>
-<p>参考文章：<br>1.<a href="https://cloud.tencent.com/developer/article/1662763">Hexo博客进阶教程（一）| 优化文章永久链接为数字编号</a><br>2.<a href="https://zhuanlan.zhihu.com/p/106060640">个人博客第8篇——优化主题（持续更新）</a></p>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
