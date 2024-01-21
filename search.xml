@@ -31,8 +31,7 @@
     <content><![CDATA[<p>Abstract：</p>
 <span id="more"></span>  
 <h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="博客建立"><a href="#博客建立" class="headerlink" title="博客建立"></a>博客建立</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n text_name</span><br></pre></td></tr></table></figure>
-
-
+<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
 <h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1>]]></content>
       <tags>
         <tag>Hexo</tag>
