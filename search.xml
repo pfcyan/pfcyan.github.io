@@ -63,6 +63,14 @@
       </tags>
   </entry>
   <entry>
+    <title>INR</title>
+    <url>/post/INR/</url>
+    <content><![CDATA[<p>Abstract：国际标准化比值（INR）是一种用于监测血液凝固时间的实验室检查项目，特别是用于评估口服抗凝药物如华法林的效果。INR的计算过程旨在校正不同实验室和不同试剂对凝血酶原时间（PT）测量值的影响，确保结果的一致性和可比性。</p>
+<span id="more"></span>  
+<p>检验方法：<br>血液样本采集：通常从指尖或静脉采集少量血液。<br>凝血酶原时间（PT）测量：测量血液样本中形成凝块所需的时间。<br>计算过程：<br>INR的计算公式为：<br><img src="/INR_1.png" alt="INR"><br>其中：<br>患者的PT：指患者血液样本测得的凝血酶原时间。<br>正常对照PT：指使用同一种凝血活酶所测正常人血浆的PT秒数。<br>ISI（International Sensitivity Index）：是凝血活酶试剂标出的敏感度指数，反映了与世界卫生组织的主要国际参考制剂相比，给定促凝血酶原激酶对维生素K依赖性凝血因子减少的敏感性。<br>临床意义：<br>INR正常值：通常在0.8～1.2之间。<br>抗凝治疗监测：使用华法林等抗凝治疗时，INR值通常需保持在2.0～3.0之间，以确保有效预防血栓形成同时减少出血风险。<br>注意事项：<br>不同个体的理想INR值可能有所不同，需根据医生建议进行个性化调整。<br>INR值高于4.0时，出血风险增加；而INR低于2.0时，则可能无法提供有效的抗凝效果。<br>参考文章：</p>
+]]></content>
+  </entry>
+  <entry>
     <title>JCR分区与中科院分区的关系</title>
     <url>/post/222/</url>
     <content><![CDATA[<p>Abstract：</p>
@@ -83,7 +91,7 @@
   <entry>
     <title>文本测试</title>
     <url>/post/1952948729/</url>
-    <content><![CDATA[<p>简介：文本测试</p>
+    <content><![CDATA[<p>Abstract：文本测试</p>
 <span id="more"></span>  
 <h1 id="文本测试"><a href="#文本测试" class="headerlink" title="文本测试"></a>文本测试</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>你好<br><em>斜体文本</em><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em>  </p>
 <hr>
@@ -98,13 +106,19 @@
 </li>
 <li>列表2</li>
 </ul>
-<h2 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h2><blockquote>
+<h2 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**&lt;font color=Red&gt;红色加粗字体&lt;/font&gt;**</span><br></pre></td></tr></table></figure>
+<p><strong><font color=Red>红色加粗字体</font></strong></p>
+<h2 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 第一层    </span><br><span class="line">&gt; &gt; 第二层</span><br><span class="line">&gt; &gt; * 列表1</span><br><span class="line">&gt; &gt;     * 列表2</span><br></pre></td></tr></table></figure>
+<blockquote>
 <p>第一层    </p>
 <blockquote>
 <p>第二层</p>
 <ul>
 <li>列表1<ul>
-<li>列表2</li>
+<li>列表2<ul>
+<li>列表3</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
