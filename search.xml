@@ -19,6 +19,43 @@
       </tags>
   </entry>
   <entry>
+    <title>JCR分区与中科院分区的关系</title>
+    <url>/post/222/</url>
+    <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
+<span id="more"></span>  
+<h1 id="IF影响因子和JCR分区"><a href="#IF影响因子和JCR分区" class="headerlink" title="IF影响因子和JCR分区"></a>IF影响因子和JCR分区</h1><p>JCR分区是汤森路透每年出品的《期刊引证报告》（Journal Citation Reports，JCR）根据影响因子（Impact Factor，IF）进行排序形成的分区表。<br>而IF的计算公式为<code>该期刊当年被引数和该期刊前两年发表的文章总数的比值</code><br>可以通过<a href="https://access.clarivate.com/login?app=jcr&referrer=target=https://jcr.clarivate.com/jcr/home&alternative=true&shibShireURL=https://login.incites.clarivate.com/?DestApp=IC2JCR&amp;auth=Shibboleth&shibReturnURL=https://login.incites.clarivate.com/">Clarivate</a>查询</p>
+<h1 id="中科院分区"><a href="#中科院分区" class="headerlink" title="中科院分区"></a>中科院分区</h1><p>中科院分区时中国科学院文献情报中心科学计量中心的科学研究成果，有基础版和升级版：基础版只含SCI期刊，排序标准为近三年IF平均值；升级版包含SCI和SSCI期刊，排序标准为期刊超越指数（即本刊论文的被引频次高于相同主题和相同文献类型的其他期刊的概率）。</p>
+<img src= "2.png" width="50%" height="50%">  
+
+
+<p>查询方式：<br>1.<a href="www.fenqubiao.com">中科院期刊分区表</a>,这个需要单位购买资源啊，还要在单位的VPN下才能使用<del>我没登过</del><br>2.微信小程序，微信小程序“中科院文献情报中心分区表”可以免费查询<del>我没试过</del><br>3.<a href="http://www.letpub.com.cn/index.php?page=journalapp">LetPub</a>，这个直接打开就可以搜，也不需要注册，还是比较方便的</p>
+<h1 id="中科院分区和JCR分区的区别"><a href="#中科院分区和JCR分区的区别" class="headerlink" title="中科院分区和JCR分区的区别"></a>中科院分区和JCR分区的区别</h1><p>最大的区别还是两种分区的期刊比例：JCR和中科院分区虽然都分为4个部分，但各个层级的期刊数量比例是不同的:<br><img src= "Q1.png"><br>JCR分区将该领域文献按IF排序，然后分为四等份，每一部分占该领域文献的25%，命名为Q1~Q4，这里的Q实际上就是四分位数(quartile)<br>而中科院分区则是排序后，按照0~5%，6%~20%，21%~50%，51~100%的比例分成四部分，命名为一区~四区<br>可以看到，中科院分区相对于JCR分区要更严格一些，一区期刊只占5%，是真正的顶刊，所以一区期刊基本也都是Q1，但反过来，Q1期刊在中科院分区中可能会直接掉到三区</p>
+<p>参考文章：<br>1.<a href="https://wjk.usst.edu.cn/2022/0407/c13332a268155/page.htm">期刊分区及查询</a><br>2.<a href="https://www.cnblogs.com/ZeroTensor/p/10860314.html">如何快速查询中科院JCR分区和汤森路透JCR分区</a></p>
+]]></content>
+      <categories>
+        <category>科研基础</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/post/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>  
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>博客文章编写及站点优化</title>
     <url>/post/2492903111/</url>
     <content><![CDATA[<p>Abstract：博客文章的编写过程，及布局、美化</p>
@@ -62,61 +99,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/post/1243066710/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>  
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>文本测试</title>
     <url>/post/1952948729/</url>
     <content><![CDATA[<p>Abstract：文本测试</p>
 <span id="more"></span>  
-<h1 id="文本测试"><a href="#文本测试" class="headerlink" title="文本测试"></a>文本测试</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>你好<br><em>斜体文本</em><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em>  </p>
+<h1 id="文本测试"><a href="#文本测试" class="headerlink" title="文本测试"></a>文本测试</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p><em>斜体文本</em><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em><br><del>划线</del> </p>
 <hr>
-<p><del>love</del><br><u>下划线</u><br>love<a href="%E6%88%91%E7%88%B1%E4%BD%A0">^love</a>.  </p>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul>
-<li>列表1  <ul>
-<li>列表1.1<ul>
-<li>列表1.1.1</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>列表2</li>
-</ul>
-<h2 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**&lt;font color=Red&gt;红色加粗字体&lt;/font&gt;**</span><br></pre></td></tr></table></figure>
+<p><u>下划线</u>  </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体文本*  </span><br><span class="line">**粗体文本**  </span><br><span class="line">***粗斜体文本***  </span><br><span class="line">~~划线~~  </span><br><span class="line">***分行</span><br><span class="line">&lt;u&gt;下划线&lt;/u&gt;  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">love[^引用].  </span><br></pre></td></tr></table></figure>
+<p>love[^引用].<br>[^引用]: 这是条引用  </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[^引用]: 这是条引用  </span><br><span class="line"></span><br><span class="line">## 列表</span><br><span class="line">* 列表1  </span><br><span class="line">    * 列表1.1</span><br><span class="line">        * 列表1.1.1</span><br><span class="line">* 列表2</span><br><span class="line"></span><br><span class="line">## 字体颜色</span><br></pre></td></tr></table></figure>
 <p><strong><font color=Red>红色加粗字体</font></strong></p>
-<h2 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 第一层    </span><br><span class="line">&gt; &gt; 第二层</span><br><span class="line">&gt; &gt; * 列表1</span><br><span class="line">&gt; &gt;     * 列表2</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**&lt;font color=Red&gt;红色加粗字体&lt;/font&gt;**</span><br><span class="line"></span><br><span class="line">## 区块</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>第一层    </p>
 <blockquote>
 <p>第二层</p>
 <ul>
 <li>列表1<ul>
-<li>列表2<ul>
-<li>列表3</li>
-</ul>
-</li>
+<li>列表2</li>
 </ul>
 </li>
 </ul>
 </blockquote>
 </blockquote>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="variable language_">document</span>).<span class="title function_">ready</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="title function_">alert</span>(<span class="string">&#x27;RUNOOB&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 第一层    </span><br><span class="line">&gt; &gt; 第二层</span><br><span class="line">&gt; &gt; * 列表1</span><br><span class="line">&gt; &gt;   * 列表2</span><br><span class="line">&gt; &gt;       * 列表3</span><br><span class="line"></span><br><span class="line">## 代码</span><br><span class="line">```javascript</span><br><span class="line">$(document).ready(function () &#123;</span><br><span class="line">    alert(&#x27;RUNOOB&#x27;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 
 <h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>这个链接<a href="http://google.com/">Google</a></p>
 <h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="/uploads/avatar.png" alt="头像"></p>
@@ -148,23 +155,5 @@
         <tag>Hexo</tag>
         <tag>Next</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>JCR分区与中科院分区的关系</title>
-    <url>/post/222/</url>
-    <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
-<span id="more"></span>  
-<h1 id="IF影响因子和JCR分区"><a href="#IF影响因子和JCR分区" class="headerlink" title="IF影响因子和JCR分区"></a>IF影响因子和JCR分区</h1><p>JCR分区是汤森路透每年出品的《期刊引证报告》（Journal Citation Reports，JCR）根据影响因子（Impact Factor，IF）进行排序形成的分区表。<br>而IF的计算公式为<code>该期刊当年被引数和该期刊前两年发表的文章总数的比值</code><br>可以通过<a href="https://access.clarivate.com/login?app=jcr&referrer=target=https://jcr.clarivate.com/jcr/home&alternative=true&shibShireURL=https://login.incites.clarivate.com/?DestApp=IC2JCR&amp;auth=Shibboleth&shibReturnURL=https://login.incites.clarivate.com/">Clarivate</a>查询</p>
-<h1 id="中科院分区"><a href="#中科院分区" class="headerlink" title="中科院分区"></a>中科院分区</h1><p>中科院分区时中国科学院文献情报中心科学计量中心的科学研究成果，有基础版和升级版：基础版只含SCI期刊，排序标准为近三年IF平均值；升级版包含SCI和SSCI期刊，排序标准为期刊超越指数（即本刊论文的被引频次高于相同主题和相同文献类型的其他期刊的概率）。</p>
-<img src= "2.png" width="50%" height="50%">  
-
-
-<p>查询方式：<br>1.<a href="www.fenqubiao.com">中科院期刊分区表</a>,这个需要单位购买资源啊，还要在单位的VPN下才能使用<del>我没登过</del><br>2.微信小程序，微信小程序“中科院文献情报中心分区表”可以免费查询<del>我没试过</del><br>3.<a href="http://www.letpub.com.cn/index.php?page=journalapp">LetPub</a>，这个直接打开就可以搜，也不需要注册，还是比较方便的</p>
-<h1 id="中科院分区和JCR分区的区别"><a href="#中科院分区和JCR分区的区别" class="headerlink" title="中科院分区和JCR分区的区别"></a>中科院分区和JCR分区的区别</h1><p>最大的区别还是两种分区的期刊比例：JCR和中科院分区虽然都分为4个部分，但各个层级的期刊数量比例是不同的:<br><img src= "Q1.png"><br>JCR分区将该领域文献按IF排序，然后分为四等份，每一部分占该领域文献的25%，命名为Q1~Q4，这里的Q实际上就是四分位数(quartile)<br>而中科院分区则是排序后，按照0~5%，6%~20%，21%~50%，51~100%的比例分成四部分，命名为一区~四区<br>可以看到，中科院分区相对于JCR分区要更严格一些，一区期刊只占5%，是真正的顶刊，所以一区期刊基本也都是Q1，但反过来，Q1期刊在中科院分区中可能会直接掉到三区</p>
-<p>参考文章：<br>1.<a href="https://wjk.usst.edu.cn/2022/0407/c13332a268155/page.htm">期刊分区及查询</a><br>2.<a href="https://www.cnblogs.com/ZeroTensor/p/10860314.html">如何快速查询中科院JCR分区和汤森路透JCR分区</a></p>
-]]></content>
-      <categories>
-        <category>科研基础</category>
-      </categories>
   </entry>
 </search>
