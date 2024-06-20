@@ -183,6 +183,83 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/post/693561082/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.png">
+      <meta itemprop="name" content="pfcyan">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="青苑">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/693561082/" class="post-title-link" itemprop="url">softmax</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-06-20 23:06:57 / 修改时间：23:08:10" itemprop="dateCreated datePublished" datetime="2024-06-20T23:06:57+08:00">2024-06-20</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>824</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>Softmax是一个在机器学习和深度学习中常用的函数，特别是在处理分类问题时。它通常用于多分类模型的输出层，将模型输出的原始分数（也称为logits）转换成概率分布。</p>
+<h1 id="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"><a href="#Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧" class="headerlink" title="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"></a>Softmax函数的定义：<br>对于一个样本，假设我们有一个包含<br>𝐶<br>C个类别的分类问题，模型输出的原始分数向量为<br>𝑧</h1><h1 id="𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧"><a href="#𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧" class="headerlink" title="[𝑧1,𝑧2,...,𝑧𝐶]z&#x3D;[z1​ ,z2​ ,…,zC​ ]。Softmax函数将这个向量转换为一个概率分布𝜎(𝑧)"></a>[<br>𝑧<br>1<br>,<br>𝑧<br>2<br>,<br>.<br>.<br>.<br>,<br>𝑧<br>𝐶<br>]<br>z&#x3D;[z<br>1<br>​<br> ,z<br>2<br>​<br> ,…,z<br>C<br>​<br> ]。Softmax函数将这个向量转换为一个概率分布<br>𝜎<br>(<br>𝑧<br>)</h1><p>[<br>𝜎<br>(<br>𝑧<br>1<br>)<br>,<br>𝜎<br>(<br>𝑧<br>2<br>)<br>,<br>.<br>.<br>.<br>,<br>𝜎<br>(<br>𝑧<br>𝐶<br>)<br>]<br>σ(z)&#x3D;[σ(z<br>1<br>​<br> ),σ(z<br>2<br>​<br> ),…,σ(z<br>C<br>​<br> )]，其中每个元素<br>𝜎<br>(<br>𝑧<br>𝑖<br>)<br>σ(z<br>i<br>​<br> ) 表示样本属于第<br>𝑖<br>i 个类别的概率，计算公式为：</p>
+<h1 id="𝜎-𝑧𝑖"><a href="#𝜎-𝑧𝑖" class="headerlink" title="𝜎(𝑧𝑖)"></a>𝜎<br>(<br>𝑧<br>𝑖<br>)</h1><h1 id="𝑒𝑧𝑖∑𝑗"><a href="#𝑒𝑧𝑖∑𝑗" class="headerlink" title="𝑒𝑧𝑖∑𝑗"></a>𝑒<br>𝑧<br>𝑖<br>∑<br>𝑗</h1><p>1<br>𝐶<br>𝑒<br>𝑧<br>𝑗<br>σ(z<br>i<br>​<br> )&#x3D;<br>∑<br>j&#x3D;1<br>C<br>​<br> e<br>z<br>j<br>​</p>
+<p>e<br>z<br>i<br>​<br>Softmax函数的特点：<br>归一化：Softmax函数的输出是一个概率分布，所有类别的概率之和为1。<br>区分度：它放大了原始分数之间的差异。如果一个类别的原始分数比其他类别的分数稍微高一点，经过Softmax函数转换后，这个类别的概率会比其他类别的概率高得多。<br>稳定性：当原始分数非常大或非常小的时候，Softmax函数能够稳定地输出概率值，避免数值计算问题。<br>应用场景：<br>多分类问题：在深度学习模型的输出层，用于将模型的预测输出转换为概率形式，以便于选择概率最高的类别作为预测结果。<br>概率解释：Softmax输出的概率可以用于概率解释和概率推断。<br>与Logistic回归的比较：<br>在二分类问题中，Softmax函数退化为Logistic函数（或称为Sigmoid函数），用于将原始分数转换为概率。而在多分类问题中，Softmax函数能够处理多个类别，输出一个概率分布。</p>
+<p>Softmax函数在深度学习框架中广泛使用，如TensorFlow、PyTorch等，它们提供了方便的Softmax实现，可以直接应用于模型的输出层。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/post/INR/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -716,7 +793,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -765,12 +842,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">5k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">8 分钟</span>
+    <span title="站点阅读时长">9 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
