@@ -19,35 +19,6 @@
       </tags>
   </entry>
   <entry>
-    <title>胆红素的前世今生</title>
-    <url>/post/bile_pigment/</url>
-    <content><![CDATA[<p>Abstract：</p>
-<span id="more"></span>  
-<p>胆色素(bile pigment)是体内<strong>铁卟啉类化合物</strong>的主要分解代谢产物,包括胆绿素(biliverdin)、胆红素(bilirubin)、胆素原(bilinogen)和胆素(bilin)。这些化合物主要随胆汁排出体外,其中胆红素居于胆色素代谢的中心,是人体胆汁中的主要色素,呈橙黄色。<br><img src= "bile_pigment_cycle.png">  </p>
-<h2 id="胆红素的来源"><a href="#胆红素的来源" class="headerlink" title="胆红素的来源"></a>胆红素的来源</h2><p>胆红素是铁卟（bu）啉类化合物的降解产物，体内铁卟啉类化合物包括<strong>血红蛋白</strong>、肌红蛋白、细胞色素、过氧化氢酶和过氧化物酶等。正常人每天可生成250~350mg胆红素,其中约80%以上来自衰老红细胞破坏所释放的血红蛋白的分解。小部分胆红素来自造血过程中红细胞的过早破坏(无效红细胞生成),还有少量胆红素来自其他各种含血红素蛋白如细胞色素 P450。肌红蛋白由于更新率低,所占比例很小。<br><img src= "血红蛋白.png"><br>血红素（环状四吡咯环结构）在单核吞噬系统细胞微粒体的血红素加氧酶（heme oxygenase,HO）催化，在至少3分子氧和3分子NADPH的存在下，生成水溶性的胆绿素（线性四吡咯结构），释放的Fe<sup>2+</sup>氧化为Fe<sup>3+</sup>进入铁代谢池。<br>胆绿素进一步在胞质活性很强的胆绿素还原酶(biliverdin reductase)催化下,由NADPH供氢,还原生成胆红素。<br>由于胆红素分子内氢键的作用，胆红素具有疏水亲脂的性质，极易自由透过细胞膜进入血液。</p>
-<h2 id="胆红素的转运"><a href="#胆红素的转运" class="headerlink" title="胆红素的转运"></a>胆红素的转运</h2><p>胆红素在单核吞噬系统细胞生成以后释放入血。在血浆中主要以<strong>胆红素-清蛋白复合体</strong>形式存在和运输。</p>
-<ul>
-<li>优势<ul>
-<li>增加了胆红素的水溶性,提高了血浆对胆红素的运输能力</li>
-<li>限制了它自由通透各种细胞膜,避免了其对组织细胞造成的毒性作用</li>
-</ul>
-</li>
-<li>潜力<ul>
-<li>正常人血浆胆红素含量为3.4~17.1μmol&#x2F;L(2~10mg&#x2F;L),而每100ml血浆清蛋白可结合25mg胆红素,故在正常情况下血浆清蛋白结合胆红素的潜力很大,不与清蛋白结合的胆红素甚微。</li>
-</ul>
-</li>
-<li>限制<ul>
-<li>胆红素与清蛋白的结合是<strong>非特异性、非共价可逆性的</strong>。若清蛋白含量明显降低、结合部位被其他物质占据或降低胆红素对结合部位的亲和力,均可促使胆红素从血浆向组织细胞转移。</li>
-</ul>
-</li>
-</ul>
-<p>某些有机阴离子(如<b><font color=Red>磺胺药</font></b>、<b><font color=Red>水杨酸</font></b>、胆汁酸、脂肪酸等)可与胆红素竞争性地结合清蛋白,使胆红素游离。过多的游离胆红素因系脂溶性易穿透细胞膜进入细胞,尤其是富含脂质的脑部基底核的神经细胞,干扰脑的正常功能,称为<code>胆红素脑病(bilinubin encephalopathy)</code>或<code>核黄疽(kemnicterus)</code>。<b><font color=Red>有黄疸倾向的病人或新生儿生理性黄疸期,应慎用上述药物。</font>因此,血浆清蛋白与胆红素的结合仅起到暂时性的解毒作用,其根本性的解毒依赖肝与葡糖醛酸结合的生物转化作用。</b>把这种未经肝结合转化的,在血浆中与清蛋白结合运输的胆红素称为未结合胆红素(unconjugated bilirubin)或血胆红素或游离胆红素。未结合胆红素因分子内氢键存在,不能直接与<strong>重氮试剂</strong>反应,只有在加入乙醇或尿素等破坏氢键后才能与重氮试剂反应,生成紫红色偶氮化合物,故未结合胆红素又称为间接反应胆红素或间接胆红素(indirect bilirubin)。</p>
-<h2 id="胆红素的结合"><a href="#胆红素的结合" class="headerlink" title="胆红素的结合"></a>胆红素的结合</h2><p>血中的胆红素以胆红素-清蛋白复合体的形式运输到肝后,在被肝细胞摄取前先与清蛋白分离，然后迅速被肝细胞摄取。胆红素可以自由双向通透肝血窦肝细胞膜表面而进入肝细胞。所以,<strong>肝细胞对胆红素的摄取量取决于肝细胞对胆红素的进一步处理能力。</strong><br>胆红素进入肝细胞后,在细胞质中主要与细胞质Y蛋白和Z蛋白两种配体蛋白(1igandin)相结合,其中,以Y蛋白为主。配体蛋白是胆红素在肝细胞质的主要载体,系谷胱甘肽S-转移酶(GST)家族成员,含量丰富,占肝细胞质总蛋白质的3%~4%,对胆红素有高亲和力。配体蛋白可与胆红素1:1结合,以胆红素-Y蛋白或胆红素-Z蛋白形式将胆红素携带至肝细胞滑面内质网。<br>在滑面内质网<b>UDP-葡糖醛酸基转移酶(UDP-glucuronosyltransferase,UGT)</b>的催化下,由UDPCA提供葡糖醛酸基,生成葡糖醛酸胆红素(bilirubin glu-curonide)。由于胆红素分子中含有2个羧基,每分子胆红素可至多结合2分子葡糖醛酸。<u>结果主要生成胆红素葡糖醛酸二酯和少量胆红素葡糖醛酸一酯</u>,两者均可被分泌人胆汁。此外,尚有少量胆红素与硫酸结合生成硫酸酯。<b><font color=Red>胆红素与葡糖醛酸的结合是肝脏对有毒性胆红素一种根本性的生物转化解毒方式</font></b>。把这些在肝脏与葡糖醛酸结合转化的胆红素称为结合胆红素(conjugated bilirubin)或肝胆红素。与葡糖醛酸结合的胆红素因分子内不再有氢键,分子中间的亚甲桥不在深埋于分子内部,可以迅速、直接与重氨试剂发生反应,故结合胆红素又称为直接反应胆红素或直接胆红素(directbilirubin)。<br><img src= "结合.png"><br><img src= "比较.png"><br>结合胆红素水溶性强,被肝细胞分泌进入胆管系统,随胆汁排入小肠。<b>此被认为是肝脏代谢胆红素的限速步骤</b>。<br>肝细胞向胆小管分泌结合胆红素是一个逆浓度梯度的主动转运过程,定位于肝细胞膜胆小管域的多耐药相关蛋白2(multidrugresistance-like protein，2MRP2)是肝细胞向胆小管分泌结合胆红案的转运蛋白质。<b>胆红素排泄一旦发生障碍,结合胆红素就可返流入血</b>。对UDP-葡糖醛酸基转移酶具有诱导作用的<b>苯巴比妥</b>等药物对结合胆红素从肝细胞到胆汁的分泌也同样具有诱导作用,可见胆红素的结合转化与分泌构成相互协调的功能体系。<br>血浆中的胆红素通过<u>肝细胞膜的自由扩散、肝细胞质内配体蛋白的运转、内质网的葡糖醛酸基转移酶的催化和肝细胞膜的主动分泌等联合作用,不断地被肝细胞摄取、结合转化与排泄</u>,从而不断地得以清除。</p>
-<h2 id="胆红素的排泄"><a href="#胆红素的排泄" class="headerlink" title="胆红素的排泄"></a>胆红素的排泄</h2><p>胆素原是结合胆红素经肠菌作用的产物。经肝细胞转化生成的葡糖醛酸胆红素随胆汁进入肠道,在回肠下段和结肠的肠菌作用下,脱去葡糖醛酸基,并被还原生成d-尿胆素原(d-urobilinogen)和中胆素原( mesobilirubinogen,i-urobilinogen)后者又可进一步还原生成粪胆素原(stercobilinogen,l-urobilinogen),这些物质统称为<b>胆素原</b>。大部分胆素原随粪便排出体外,在肠道下段,这些无色的胆素原接触空气后分别被<b>氧化</b>为相应的d-尿胆素(d-urobilin)、i-尿胆素( i-urobilin)和粪胆素( stereobilin,l-urobilin),三者合称<b>胆素</b>。胆素呈黄褐色,成为粪便的主要颜色。正常人每日排出总量为40<del>280mg。胆道完全梗阻时,胆红素不能排入肠道形成胆素原和进而形成粪胆素,因此粪便呈灰白色或白陶土色。<u>婴儿肠道细菌稀少,未被细菌作用的胆红素随粪便排出,可使粪便呈现橘黄色。</u><br><img src= "bile_pigment_cycle.png"><br>少量胆素原可被肠黏膜重吸收，进入胆素原的肠肝循环肠道中生成的胆素有原10%</del>20%可被肠黏膜细胞重吸收,经门静脉入肝,其中大部分(约90%)以原形随胆汁排人肠腔,<strong>形成胆素原的肠肝循环(enterohepatic urobilinogen cycle)<strong>。只有小部分(10%)胆素原可以进人体循环经肾小球滤出随尿排出,称为</strong>尿胆素原</strong>。正常人每日随尿排出尿胆素原约0.5~4.0mg。尿胆素原与空气接触后被氧化成尿胆素,成为尿的主要色素。临床上将<u>尿胆素原、尿胆素及尿胆红素合称为<b>尿三胆</b></u>,是黄疸类型鉴别诊断的常用指标。正常人尿中检测不到尿胆红素。</p>
-<h2 id="黄疸"><a href="#黄疸" class="headerlink" title="黄疸"></a>黄疸</h2><p>参考文章：</p>
-]]></content>
-  </entry>
-  <entry>
     <title>JCR分区与中科院分区的关系</title>
     <url>/post/222/</url>
     <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
@@ -72,6 +43,35 @@
 <span id="more"></span>  
 <p>在生理性止血过程中,<strong>血管收缩</strong>、<strong>血小板止血栓形成</strong>及<strong>血液凝固</strong>三个过程是相继发生并相互重叠的。只有在血管收缩、血流减慢时,血小板黏附才容易实现;血小板激活后释放的5-HT和TXA<sub>2</sub>,又可促进血管收缩。活化的血小板可促进血液凝固而具有凝血功能。血液凝固反应也可促进血小板的活化。此外,血凝块中血小板的收缩可引起血块回缩,挤出其中的血清,而使血凝块变得更为坚实,牢固地封住血管的破口。因此,生理性止血的三个过程彼此相互促进,使生理性止血能及时而快速地进行。<strong>血小板在生理性止血的三个环节中均起重要作用,在止血过程中居于中心地位</strong>。当血小板的数量减少或功能降低时,出血时间就会延长。<br><img src= "止血流程.png"><br>而血液凝固，即凝血反应，是凝血因子被级联激活、最终形成血凝块（clot）的过程，凝血系统及抗凝系统的相互作用起到关键作用。</p>
 <p>参考文章：生理学第九版</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>胆红素的前世今生</title>
+    <url>/post/bile_pigment/</url>
+    <content><![CDATA[<p>Abstract：</p>
+<span id="more"></span>  
+<p>胆色素(bile pigment)是体内<strong>铁卟啉类化合物</strong>的主要分解代谢产物,包括胆绿素(biliverdin)、胆红素(bilirubin)、胆素原(bilinogen)和胆素(bilin)。这些化合物主要随胆汁排出体外,其中胆红素居于胆色素代谢的中心,是人体胆汁中的主要色素,呈橙黄色。<br><img src= "bile_pigment_cycle.png">  </p>
+<h2 id="胆红素的来源"><a href="#胆红素的来源" class="headerlink" title="胆红素的来源"></a>胆红素的来源</h2><p>胆红素是铁卟（bu）啉类化合物的降解产物，体内铁卟啉类化合物包括<strong>血红蛋白</strong>、肌红蛋白、细胞色素、过氧化氢酶和过氧化物酶等。正常人每天可生成250~350mg胆红素,其中约80%以上来自衰老红细胞破坏所释放的血红蛋白的分解。小部分胆红素来自造血过程中红细胞的过早破坏(无效红细胞生成),还有少量胆红素来自其他各种含血红素蛋白如细胞色素 P450。肌红蛋白由于更新率低,所占比例很小。<br><img src= "血红蛋白.png"><br>血红素（环状四吡咯环结构）在单核吞噬系统细胞微粒体的血红素加氧酶（heme oxygenase,HO）催化，在至少3分子氧和3分子NADPH的存在下，生成水溶性的胆绿素（线性四吡咯结构），释放的Fe<sup>2+</sup>氧化为Fe<sup>3+</sup>进入铁代谢池。<br>胆绿素进一步在胞质活性很强的胆绿素还原酶(biliverdin reductase)催化下,由NADPH供氢,还原生成胆红素。<br>由于胆红素分子内氢键的作用，胆红素具有疏水亲脂的性质，极易自由透过细胞膜进入血液。</p>
+<h2 id="胆红素的转运"><a href="#胆红素的转运" class="headerlink" title="胆红素的转运"></a>胆红素的转运</h2><p>胆红素在单核吞噬系统细胞生成以后释放入血。在血浆中主要以<strong>胆红素-清蛋白复合体</strong>形式存在和运输。</p>
+<ul>
+<li>优势<ul>
+<li>增加了胆红素的水溶性,提高了血浆对胆红素的运输能力</li>
+<li>限制了它自由通透各种细胞膜,避免了其对组织细胞造成的毒性作用</li>
+</ul>
+</li>
+<li>潜力<ul>
+<li>正常人血浆胆红素含量为3.4~17.1μmol&#x2F;L(2~10mg&#x2F;L),而每100ml血浆清蛋白可结合25mg胆红素,故在正常情况下血浆清蛋白结合胆红素的潜力很大,不与清蛋白结合的胆红素甚微。</li>
+</ul>
+</li>
+<li>限制<ul>
+<li>胆红素与清蛋白的结合是<strong>非特异性、非共价可逆性的</strong>。若清蛋白含量明显降低、结合部位被其他物质占据或降低胆红素对结合部位的亲和力,均可促使胆红素从血浆向组织细胞转移。</li>
+</ul>
+</li>
+</ul>
+<p>某些有机阴离子(如<b><font color=Red>磺胺药</font></b>、<b><font color=Red>水杨酸</font></b>、胆汁酸、脂肪酸等)可与胆红素竞争性地结合清蛋白,使胆红素游离。过多的游离胆红素因系脂溶性易穿透细胞膜进入细胞,尤其是富含脂质的脑部基底核的神经细胞,干扰脑的正常功能,称为<code>胆红素脑病(bilinubin encephalopathy)</code>或<code>核黄疽(kemnicterus)</code>。<b><font color=Red>有黄疸倾向的病人或新生儿生理性黄疸期,应慎用上述药物。</font>因此,血浆清蛋白与胆红素的结合仅起到暂时性的解毒作用,其根本性的解毒依赖肝与葡糖醛酸结合的生物转化作用。</b>把这种未经肝结合转化的,在血浆中与清蛋白结合运输的胆红素称为未结合胆红素(unconjugated bilirubin)或血胆红素或游离胆红素。未结合胆红素因分子内氢键存在,不能直接与<strong>重氮试剂</strong>反应,只有在加入乙醇或尿素等破坏氢键后才能与重氮试剂反应,生成紫红色偶氮化合物,故未结合胆红素又称为间接反应胆红素或间接胆红素(indirect bilirubin)。</p>
+<h2 id="胆红素的结合"><a href="#胆红素的结合" class="headerlink" title="胆红素的结合"></a>胆红素的结合</h2><p>血中的胆红素以胆红素-清蛋白复合体的形式运输到肝后,在被肝细胞摄取前先与清蛋白分离，然后迅速被肝细胞摄取。胆红素可以自由双向通透肝血窦肝细胞膜表面而进入肝细胞。所以,<strong>肝细胞对胆红素的摄取量取决于肝细胞对胆红素的进一步处理能力。</strong><br>胆红素进入肝细胞后,在细胞质中主要与细胞质Y蛋白和Z蛋白两种配体蛋白(1igandin)相结合,其中,以Y蛋白为主。配体蛋白是胆红素在肝细胞质的主要载体,系谷胱甘肽S-转移酶(GST)家族成员,含量丰富,占肝细胞质总蛋白质的3%~4%,对胆红素有高亲和力。配体蛋白可与胆红素1:1结合,以胆红素-Y蛋白或胆红素-Z蛋白形式将胆红素携带至肝细胞滑面内质网。<br>在滑面内质网<b>UDP-葡糖醛酸基转移酶(UDP-glucuronosyltransferase,UGT)</b>的催化下,由UDPCA提供葡糖醛酸基,生成葡糖醛酸胆红素(bilirubin glu-curonide)。由于胆红素分子中含有2个羧基,每分子胆红素可至多结合2分子葡糖醛酸。<u>结果主要生成胆红素葡糖醛酸二酯和少量胆红素葡糖醛酸一酯</u>,两者均可被分泌人胆汁。此外,尚有少量胆红素与硫酸结合生成硫酸酯。<b><font color=Red>胆红素与葡糖醛酸的结合是肝脏对有毒性胆红素一种根本性的生物转化解毒方式</font></b>。把这些在肝脏与葡糖醛酸结合转化的胆红素称为结合胆红素(conjugated bilirubin)或肝胆红素。与葡糖醛酸结合的胆红素因分子内不再有氢键,分子中间的亚甲桥不在深埋于分子内部,可以迅速、直接与重氨试剂发生反应,故结合胆红素又称为直接反应胆红素或直接胆红素(directbilirubin)。<br><img src= "结合.png"><br><img src= "比较.png"><br>结合胆红素水溶性强,被肝细胞分泌进入胆管系统,随胆汁排入小肠。<b>此被认为是肝脏代谢胆红素的限速步骤</b>。<br>肝细胞向胆小管分泌结合胆红素是一个逆浓度梯度的主动转运过程,定位于肝细胞膜胆小管域的多耐药相关蛋白2(multidrugresistance-like protein，2MRP2)是肝细胞向胆小管分泌结合胆红案的转运蛋白质。<b>胆红素排泄一旦发生障碍,结合胆红素就可返流入血</b>。对UDP-葡糖醛酸基转移酶具有诱导作用的<b>苯巴比妥</b>等药物对结合胆红素从肝细胞到胆汁的分泌也同样具有诱导作用,可见胆红素的结合转化与分泌构成相互协调的功能体系。<br>血浆中的胆红素通过<u>肝细胞膜的自由扩散、肝细胞质内配体蛋白的运转、内质网的葡糖醛酸基转移酶的催化和肝细胞膜的主动分泌等联合作用,不断地被肝细胞摄取、结合转化与排泄</u>,从而不断地得以清除。</p>
+<h2 id="胆红素的排泄"><a href="#胆红素的排泄" class="headerlink" title="胆红素的排泄"></a>胆红素的排泄</h2><p>胆素原是结合胆红素经肠菌作用的产物。经肝细胞转化生成的葡糖醛酸胆红素随胆汁进入肠道,在回肠下段和结肠的肠菌作用下,脱去葡糖醛酸基,并被还原生成d-尿胆素原(d-urobilinogen)和中胆素原( mesobilirubinogen,i-urobilinogen)后者又可进一步还原生成粪胆素原(stercobilinogen,l-urobilinogen),这些物质统称为<b>胆素原</b>。大部分胆素原随粪便排出体外,在肠道下段,这些无色的胆素原接触空气后分别被<b>氧化</b>为相应的d-尿胆素(d-urobilin)、i-尿胆素( i-urobilin)和粪胆素(stereobilin,l-urobilin),三者合称<b>胆素</b>。胆素呈黄褐色,成为粪便的主要颜色。正常人每日排出总量为40&#x2F;<del>280mg。胆道完全梗阻时,胆红素不能排入肠道形成胆素原和进而形成粪胆素,因此粪便呈灰白色或白陶土色。<u>婴儿肠道细菌稀少,未被细菌作用的胆红素随粪便排出,可使粪便呈现橘黄色。</u><br><img src= "bile_pigment_cycle.png"><br>少量胆素原可被肠黏膜重吸收，进入胆素原的肠肝循环肠道中生成的胆素有原10%</del>20%可被肠黏膜细胞重吸收,经门静脉入肝,其中大部分(约90%)以原形随胆汁排人肠腔,<strong>形成胆素原的肠肝循环(enterohepatic urobilinogen cycle)<strong>。只有小部分(10%)胆素原可以进人体循环经肾小球滤出随尿排出,称为</strong>尿胆素原</strong>。正常人每日随尿排出尿胆素原约0.5~4.0mg。尿胆素原与空气接触后被氧化成尿胆素,成为尿的主要色素。临床上将<u>尿胆素原、尿胆素及尿胆红素合称为<b>尿三胆</b></u>,是黄疸类型鉴别诊断的常用指标。正常人尿中检测不到尿胆红素。</p>
+<h2 id="黄疸"><a href="#黄疸" class="headerlink" title="黄疸"></a>黄疸</h2><p>参考文章：</p>
 ]]></content>
   </entry>
   <entry>
@@ -102,49 +102,6 @@
 <p>e<br>z<br>i<br>​<br>Softmax函数的特点：<br>归一化：Softmax函数的输出是一个概率分布，所有类别的概率之和为1。<br>区分度：它放大了原始分数之间的差异。如果一个类别的原始分数比其他类别的分数稍微高一点，经过Softmax函数转换后，这个类别的概率会比其他类别的概率高得多。<br>稳定性：当原始分数非常大或非常小的时候，Softmax函数能够稳定地输出概率值，避免数值计算问题。<br>应用场景：<br>多分类问题：在深度学习模型的输出层，用于将模型的预测输出转换为概率形式，以便于选择概率最高的类别作为预测结果。<br>概率解释：Softmax输出的概率可以用于概率解释和概率推断。<br>与Logistic回归的比较：<br>在二分类问题中，Softmax函数退化为Logistic函数（或称为Sigmoid函数），用于将原始分数转换为概率。而在多分类问题中，Softmax函数能够处理多个类别，输出一个概率分布。</p>
 <p>Softmax函数在深度学习框架中广泛使用，如TensorFlow、PyTorch等，它们提供了方便的Softmax实现，可以直接应用于模型的输出层。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>博客文章编写及站点优化</title>
-    <url>/post/2492903111/</url>
-    <content><![CDATA[<p>Abstract：博客文章的编写过程，及布局、美化</p>
-<span id="more"></span>  
-<h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo n [layout_name] text_name #默认为post的布局</span><br></pre></td></tr></table></figure>
-
-<h2 id="新建草稿"><a href="#新建草稿" class="headerlink" title="新建草稿"></a>新建草稿</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo n draft title</span><br><span class="line">$ hexo publish title</span><br></pre></td></tr></table></figure>
-<p>可以在draft文件夹中新建一个title.md的文件，通过publish命令可以将其推送到_posts文件夹中<br>hexo的命令一般不处理草稿，不过可以通过静态页面显示草稿:<br><code>$ hexo s --draft</code></p>
-<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
-<h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1><h2 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h2><p>在文章希望预览的内容后面输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
-<p>即可在首页完成预览<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_1.png"></p>
-<h2 id="优化文章默认格式"><a href="#优化文章默认格式" class="headerlink" title="优化文章默认格式"></a>优化文章默认格式</h2><p>scaffolds文件夹内存在三个自带的Front-matter文件，可自行修改，目前的布局设定为:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">abbrlink:</span><br><span class="line">---</span><br><span class="line">Abstract：</span><br><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
-<p>其实就是文章建立后的默认属性和内容啦</p>
-<h2 id="优化文章永久链接为数字编号"><a href="#优化文章永久链接为数字编号" class="headerlink" title="优化文章永久链接为数字编号"></a>优化文章永久链接为数字编号</h2><p>安装abbrlink插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<p>_config.yml修改配置</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/</span><br><span class="line">#permalink_defaults:</span><br><span class="line">permalink: posts/:abbrlink/</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32 #support crc16(default) and crc32</span><br><span class="line">  rep: dec   #support dec(default) and hex</span><br></pre></td></tr></table></figure>
-<p>重新部署后不同参数的链接可有如下效果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crc16 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/66c8.html</span><br><span class="line"></span><br><span class="line">crc16 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/65535.html</span><br><span class="line">复制</span><br><span class="line">crc32 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/8ddf18fb.html</span><br><span class="line"></span><br><span class="line">crc32 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/1690090958.html</span><br></pre></td></tr></table></figure>
-
-<h2 id="添加文章字数和阅读时长"><a href="#添加文章字数和阅读时长" class="headerlink" title="添加文章字数和阅读时长"></a>添加文章字数和阅读时长</h2><p>安装hexo-symbols-count-time插件：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
-<p>修改hexo配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  symbols: true                # 文章字数统计</span><br><span class="line">  time: true                   # 文章阅读时长</span><br><span class="line">  total_symbols: true          # 站点总字数统计</span><br><span class="line">  total_time: true             # 站点总阅读时长</span><br><span class="line">  exclude_codeblock: false     # 排除代码字数统计</span><br><span class="line">  awl: 2                       # 字平均单词长度 - Average Word Length</span><br><span class="line">  wpm: 275                     # 字/每份</span><br><span class="line">  suffix: &quot;mins.&quot;              # 后缀/单位</span><br></pre></td></tr></table></figure>
-<p>修改NexT主题配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span><br><span class="line"># 设置博客单词统计</span><br><span class="line">symbols_count_time:</span><br><span class="line">  # 是否另起一行（true的话不和发表时间等同一行）</span><br><span class="line">  separated_meta: true</span><br><span class="line">  # 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）</span><br><span class="line">  item_text_post: true</span><br><span class="line">  # 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）</span><br><span class="line">  item_text_total: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>效果图：<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_2.png"></p>
-<h2 id="统计文章阅读人数"><a href="#统计文章阅读人数" class="headerlink" title="统计文章阅读人数"></a>统计文章阅读人数</h2><p>修改NexT主题配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Show Views / Visitors of the website / page with busuanzi.</span><br><span class="line"># Get more information on http://ibruce.info/2015/04/04/busuanzi</span><br><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: fa fa-user</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: fa fa-eye</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: fa fa-eye</span><br></pre></td></tr></table></figure>
-
-<h1 id="站点优化"><a href="#站点优化" class="headerlink" title="站点优化"></a>站点优化</h1><h2 id="新建边栏"><a href="#新建边栏" class="headerlink" title="新建边栏"></a>新建边栏</h2><p>参考文章：<br>1.<a href="https://cloud.tencent.com/developer/article/1662763">Hexo博客进阶教程（一）| 优化文章永久链接为数字编号</a><br>2.<a href="https://zhuanlan.zhihu.com/p/106060640">个人博客第8篇——优化主题（持续更新）</a><br>3.<a href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</a><br>4.<a href="https://blog.csdn.net/weixin_48927364/article/details/123295436">【Hexo】nexT主题使用攻略基础——添加分类、标签及关于</a></p>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Next</tag>
-      </tags>
   </entry>
   <entry>
     <title>文本测试</title>
@@ -195,6 +152,49 @@
 </tr>
 </tbody></table>
 <p>引自<a href="https://www.runoob.com/markdown/md-advance.html">菜鸟教程</a></p>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客文章编写及站点优化</title>
+    <url>/post/2492903111/</url>
+    <content><![CDATA[<p>Abstract：博客文章的编写过程，及布局、美化</p>
+<span id="more"></span>  
+<h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo n [layout_name] text_name #默认为post的布局</span><br></pre></td></tr></table></figure>
+
+<h2 id="新建草稿"><a href="#新建草稿" class="headerlink" title="新建草稿"></a>新建草稿</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo n draft title</span><br><span class="line">$ hexo publish title</span><br></pre></td></tr></table></figure>
+<p>可以在draft文件夹中新建一个title.md的文件，通过publish命令可以将其推送到_posts文件夹中<br>hexo的命令一般不处理草稿，不过可以通过静态页面显示草稿:<br><code>$ hexo s --draft</code></p>
+<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
+<h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1><h2 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h2><p>在文章希望预览的内容后面输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
+<p>即可在首页完成预览<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_1.png"></p>
+<h2 id="优化文章默认格式"><a href="#优化文章默认格式" class="headerlink" title="优化文章默认格式"></a>优化文章默认格式</h2><p>scaffolds文件夹内存在三个自带的Front-matter文件，可自行修改，目前的布局设定为:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">abbrlink:</span><br><span class="line">---</span><br><span class="line">Abstract：</span><br><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
+<p>其实就是文章建立后的默认属性和内容啦</p>
+<h2 id="优化文章永久链接为数字编号"><a href="#优化文章永久链接为数字编号" class="headerlink" title="优化文章永久链接为数字编号"></a>优化文章永久链接为数字编号</h2><p>安装abbrlink插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<p>_config.yml修改配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/</span><br><span class="line">#permalink_defaults:</span><br><span class="line">permalink: posts/:abbrlink/</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32 #support crc16(default) and crc32</span><br><span class="line">  rep: dec   #support dec(default) and hex</span><br></pre></td></tr></table></figure>
+<p>重新部署后不同参数的链接可有如下效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crc16 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/66c8.html</span><br><span class="line"></span><br><span class="line">crc16 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/65535.html</span><br><span class="line">复制</span><br><span class="line">crc32 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/8ddf18fb.html</span><br><span class="line"></span><br><span class="line">crc32 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/1690090958.html</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加文章字数和阅读时长"><a href="#添加文章字数和阅读时长" class="headerlink" title="添加文章字数和阅读时长"></a>添加文章字数和阅读时长</h2><p>安装hexo-symbols-count-time插件：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
+<p>修改hexo配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  symbols: true                # 文章字数统计</span><br><span class="line">  time: true                   # 文章阅读时长</span><br><span class="line">  total_symbols: true          # 站点总字数统计</span><br><span class="line">  total_time: true             # 站点总阅读时长</span><br><span class="line">  exclude_codeblock: false     # 排除代码字数统计</span><br><span class="line">  awl: 2                       # 字平均单词长度 - Average Word Length</span><br><span class="line">  wpm: 275                     # 字/每份</span><br><span class="line">  suffix: &quot;mins.&quot;              # 后缀/单位</span><br></pre></td></tr></table></figure>
+<p>修改NexT主题配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span><br><span class="line"># 设置博客单词统计</span><br><span class="line">symbols_count_time:</span><br><span class="line">  # 是否另起一行（true的话不和发表时间等同一行）</span><br><span class="line">  separated_meta: true</span><br><span class="line">  # 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）</span><br><span class="line">  item_text_post: true</span><br><span class="line">  # 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）</span><br><span class="line">  item_text_total: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>效果图：<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_2.png"></p>
+<h2 id="统计文章阅读人数"><a href="#统计文章阅读人数" class="headerlink" title="统计文章阅读人数"></a>统计文章阅读人数</h2><p>修改NexT主题配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Show Views / Visitors of the website / page with busuanzi.</span><br><span class="line"># Get more information on http://ibruce.info/2015/04/04/busuanzi</span><br><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: fa fa-user</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: fa fa-eye</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: fa fa-eye</span><br></pre></td></tr></table></figure>
+
+<h1 id="站点优化"><a href="#站点优化" class="headerlink" title="站点优化"></a>站点优化</h1><h2 id="新建边栏"><a href="#新建边栏" class="headerlink" title="新建边栏"></a>新建边栏</h2><p>参考文章：<br>1.<a href="https://cloud.tencent.com/developer/article/1662763">Hexo博客进阶教程（一）| 优化文章永久链接为数字编号</a><br>2.<a href="https://zhuanlan.zhihu.com/p/106060640">个人博客第8篇——优化主题（持续更新）</a><br>3.<a href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</a><br>4.<a href="https://blog.csdn.net/weixin_48927364/article/details/123295436">【Hexo】nexT主题使用攻略基础——添加分类、标签及关于</a></p>
 ]]></content>
       <categories>
         <category>blog</category>
