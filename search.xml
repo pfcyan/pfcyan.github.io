@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JCR分区与中科院分区的关系</title>
+    <url>/post/222/</url>
+    <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
+<span id="more"></span>  
+<h1 id="IF影响因子和JCR分区"><a href="#IF影响因子和JCR分区" class="headerlink" title="IF影响因子和JCR分区"></a>IF影响因子和JCR分区</h1><p>JCR分区是汤森路透每年出品的《期刊引证报告》（Journal Citation Reports，JCR）根据影响因子（Impact Factor，IF）进行排序形成的分区表。<br>而IF的计算公式为<code>该期刊当年被引数和该期刊前两年发表的文章总数的比值</code><br>可以通过<a href="https://access.clarivate.com/login?app=jcr&referrer=target=https://jcr.clarivate.com/jcr/home&alternative=true&shibShireURL=https://login.incites.clarivate.com/?DestApp=IC2JCR&amp;auth=Shibboleth&shibReturnURL=https://login.incites.clarivate.com/">Clarivate</a>查询</p>
+<h1 id="中科院分区"><a href="#中科院分区" class="headerlink" title="中科院分区"></a>中科院分区</h1><p>中科院分区时中国科学院文献情报中心科学计量中心的科学研究成果，有基础版和升级版：基础版只含SCI期刊，排序标准为近三年IF平均值；升级版包含SCI和SSCI期刊，排序标准为期刊超越指数（即本刊论文的被引频次高于相同主题和相同文献类型的其他期刊的概率）。</p>
+<img src= "2.png" width="50%" height="50%">  
+
+
+<p>查询方式：<br>1.<a href="www.fenqubiao.com">中科院期刊分区表</a>,这个需要单位购买资源啊，还要在单位的VPN下才能使用<del>我没登过</del><br>2.微信小程序，微信小程序“中科院文献情报中心分区表”可以免费查询<del>我没试过</del><br>3.<a href="http://www.letpub.com.cn/index.php?page=journalapp">LetPub</a>，这个直接打开就可以搜，也不需要注册，还是比较方便的</p>
+<h1 id="中科院分区和JCR分区的区别"><a href="#中科院分区和JCR分区的区别" class="headerlink" title="中科院分区和JCR分区的区别"></a>中科院分区和JCR分区的区别</h1><p>最大的区别还是两种分区的期刊比例：JCR和中科院分区虽然都分为4个部分，但各个层级的期刊数量比例是不同的:<br><img src= "Q1.png"><br>JCR分区将该领域文献按IF排序，然后分为四等份，每一部分占该领域文献的25%，命名为Q1~Q4，这里的Q实际上就是四分位数(quartile)<br>而中科院分区则是排序后，按照0~5%，6%~20%，21%~50%，51~100%的比例分成四部分，命名为一区~四区<br>可以看到，中科院分区相对于JCR分区要更严格一些，一区期刊只占5%，是真正的顶刊，所以一区期刊基本也都是Q1，但反过来，Q1期刊在中科院分区中可能会直接掉到三区</p>
+<p>参考文章：<br>1.<a href="https://wjk.usst.edu.cn/2022/0407/c13332a268155/page.htm">期刊分区及查询</a><br>2.<a href="https://www.cnblogs.com/ZeroTensor/p/10860314.html">如何快速查询中科院JCR分区和汤森路透JCR分区</a></p>
+]]></content>
+      <categories>
+        <category>科研基础</category>
+      </categories>
+  </entry>
+  <entry>
     <title>INR</title>
     <url>/post/INR/</url>
     <content><![CDATA[<p>Abstract：国际标准化比值（INR）是一种用于监测血液凝固时间的实验室检查项目，特别是用于评估口服抗凝药物如华法林的效果。INR的计算过程旨在校正不同实验室和不同试剂对凝血酶原时间（PT）测量值的影响，确保结果的一致性和可比性。</p>
@@ -19,31 +37,23 @@
       </tags>
   </entry>
   <entry>
-    <title>coagulation</title>
-    <url>/post/coagulation/</url>
-    <content><![CDATA[<p>Abstract：血小板在生理性止血中发挥核心作用，通过血管收缩、血小板激活和血液凝固三个相互促进的过程实现快速止血。凝血反应涉及凝血因子的级联激活，与抗凝系统相互作用，对维持止血平衡至关重要。</p>
+    <title>Hello World</title>
+    <url>/post/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>  
-<p>在生理性止血过程中,<strong>血管收缩</strong>、<strong>血小板止血栓形成</strong>及<strong>血液凝固</strong>三个过程是相继发生并相互重叠的。只有在血管收缩、血流减慢时,血小板黏附才容易实现;血小板激活后释放的5-HT和TXA<sub>2</sub>,又可促进血管收缩。活化的血小板可促进血液凝固而具有凝血功能。血液凝固反应也可促进血小板的活化。此外,血凝块中血小板的收缩可引起血块回缩,挤出其中的血清,而使血凝块变得更为坚实,牢固地封住血管的破口。因此,生理性止血的三个过程彼此相互促进,使生理性止血能及时而快速地进行。<strong>血小板在生理性止血的三个环节中均起重要作用,在止血过程中居于中心地位</strong>。当血小板的数量减少或功能降低时,出血时间就会延长。<br><img src= "止血流程.png"><br>而血液凝固，即凝血反应，是凝血因子被级联激活、最终形成血凝块（clot）的过程，凝血系统及抗凝系统的相互作用起到关键作用。</p>
-<p>参考文章：生理学第九版</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>JCR分区与中科院分区的关系</title>
-    <url>/post/222/</url>
-    <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
-<span id="more"></span>  
-<h1 id="IF影响因子和JCR分区"><a href="#IF影响因子和JCR分区" class="headerlink" title="IF影响因子和JCR分区"></a>IF影响因子和JCR分区</h1><p>JCR分区是汤森路透每年出品的《期刊引证报告》（Journal Citation Reports，JCR）根据影响因子（Impact Factor，IF）进行排序形成的分区表。<br>而IF的计算公式为<code>该期刊当年被引数和该期刊前两年发表的文章总数的比值</code><br>可以通过<a href="https://access.clarivate.com/login?app=jcr&referrer=target=https://jcr.clarivate.com/jcr/home&alternative=true&shibShireURL=https://login.incites.clarivate.com/?DestApp=IC2JCR&amp;auth=Shibboleth&shibReturnURL=https://login.incites.clarivate.com/">Clarivate</a>查询</p>
-<h1 id="中科院分区"><a href="#中科院分区" class="headerlink" title="中科院分区"></a>中科院分区</h1><p>中科院分区时中国科学院文献情报中心科学计量中心的科学研究成果，有基础版和升级版：基础版只含SCI期刊，排序标准为近三年IF平均值；升级版包含SCI和SSCI期刊，排序标准为期刊超越指数（即本刊论文的被引频次高于相同主题和相同文献类型的其他期刊的概率）。</p>
-<img src= "2.png" width="50%" height="50%">  
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>查询方式：<br>1.<a href="www.fenqubiao.com">中科院期刊分区表</a>,这个需要单位购买资源啊，还要在单位的VPN下才能使用<del>我没登过</del><br>2.微信小程序，微信小程序“中科院文献情报中心分区表”可以免费查询<del>我没试过</del><br>3.<a href="http://www.letpub.com.cn/index.php?page=journalapp">LetPub</a>，这个直接打开就可以搜，也不需要注册，还是比较方便的</p>
-<h1 id="中科院分区和JCR分区的区别"><a href="#中科院分区和JCR分区的区别" class="headerlink" title="中科院分区和JCR分区的区别"></a>中科院分区和JCR分区的区别</h1><p>最大的区别还是两种分区的期刊比例：JCR和中科院分区虽然都分为4个部分，但各个层级的期刊数量比例是不同的:<br><img src= "Q1.png"><br>JCR分区将该领域文献按IF排序，然后分为四等份，每一部分占该领域文献的25%，命名为Q1~Q4，这里的Q实际上就是四分位数(quartile)<br>而中科院分区则是排序后，按照0~5%，6%~20%，21%~50%，51~100%的比例分成四部分，命名为一区~四区<br>可以看到，中科院分区相对于JCR分区要更严格一些，一区期刊只占5%，是真正的顶刊，所以一区期刊基本也都是Q1，但反过来，Q1期刊在中科院分区中可能会直接掉到三区</p>
-<p>参考文章：<br>1.<a href="https://wjk.usst.edu.cn/2022/0407/c13332a268155/page.htm">期刊分区及查询</a><br>2.<a href="https://www.cnblogs.com/ZeroTensor/p/10860314.html">如何快速查询中科院JCR分区和汤森路透JCR分区</a></p>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>科研基础</category>
-      </categories>
   </entry>
   <entry>
     <title>胆红素的前世今生</title>
@@ -70,27 +80,8 @@
 </ul>
 <p>某些有机阴离子(如<b><font color=Red>磺胺药</font></b>、<b><font color=Red>水杨酸</font></b>、胆汁酸、脂肪酸等)可与胆红素竞争性地结合清蛋白,使胆红素游离。过多的游离胆红素因系脂溶性易穿透细胞膜进入细胞,尤其是富含脂质的脑部基底核的神经细胞,干扰脑的正常功能,称为<code>胆红素脑病(bilinubin encephalopathy)</code>或<code>核黄疽(kemnicterus)</code>。<b><font color=Red>有黄疸倾向的病人或新生儿生理性黄疸期,应慎用上述药物。</font>因此,血浆清蛋白与胆红素的结合仅起到暂时性的解毒作用,其根本性的解毒依赖肝与葡糖醛酸结合的生物转化作用。</b>把这种未经肝结合转化的,在血浆中与清蛋白结合运输的胆红素称为未结合胆红素(unconjugated bilirubin)或血胆红素或游离胆红素。未结合胆红素因分子内氢键存在,不能直接与<strong>重氮试剂</strong>反应,只有在加入乙醇或尿素等破坏氢键后才能与重氮试剂反应,生成紫红色偶氮化合物,故未结合胆红素又称为间接反应胆红素或间接胆红素(indirect bilirubin)。</p>
 <h2 id="胆红素的结合"><a href="#胆红素的结合" class="headerlink" title="胆红素的结合"></a>胆红素的结合</h2><p>血中的胆红素以胆红素-清蛋白复合体的形式运输到肝后,在被肝细胞摄取前先与清蛋白分离，然后迅速被肝细胞摄取。胆红素可以自由双向通透肝血窦肝细胞膜表面而进入肝细胞。所以,<strong>肝细胞对胆红素的摄取量取决于肝细胞对胆红素的进一步处理能力。</strong><br>胆红素进入肝细胞后,在细胞质中主要与细胞质Y蛋白和Z蛋白两种配体蛋白(1igandin)相结合,其中,以Y蛋白为主。配体蛋白是胆红素在肝细胞质的主要载体,系谷胱甘肽S-转移酶(GST)家族成员,含量丰富,占肝细胞质总蛋白质的3%~4%,对胆红素有高亲和力。配体蛋白可与胆红素1:1结合,以胆红素-Y蛋白或胆红素-Z蛋白形式将胆红素携带至肝细胞滑面内质网。<br>在滑面内质网<b>UDP-葡糖醛酸基转移酶(UDP-glucuronosyltransferase,UGT)</b>的催化下,由UDPCA提供葡糖醛酸基,生成葡糖醛酸胆红素(bilirubin glu-curonide)。由于胆红素分子中含有2个羧基,每分子胆红素可至多结合2分子葡糖醛酸。<u>结果主要生成胆红素葡糖醛酸二酯和少量胆红素葡糖醛酸一酯</u>,两者均可被分泌人胆汁。此外,尚有少量胆红素与硫酸结合生成硫酸酯。<b><font color=Red>胆红素与葡糖醛酸的结合是肝脏对有毒性胆红素一种根本性的生物转化解毒方式</font></b>。把这些在肝脏与葡糖醛酸结合转化的胆红素称为结合胆红素(conjugated bilirubin)或肝胆红素。与葡糖醛酸结合的胆红素因分子内不再有氢键,分子中间的亚甲桥不在深埋于分子内部,可以迅速、直接与重氨试剂发生反应,故结合胆红素又称为直接反应胆红素或直接胆红素(directbilirubin)。<br><img src= "结合.png"><br><img src= "比较.png"><br>结合胆红素水溶性强,被肝细胞分泌进入胆管系统,随胆汁排入小肠。<b>此被认为是肝脏代谢胆红素的限速步骤</b>。<br>肝细胞向胆小管分泌结合胆红素是一个逆浓度梯度的主动转运过程,定位于肝细胞膜胆小管域的多耐药相关蛋白2(multidrugresistance-like protein，2MRP2)是肝细胞向胆小管分泌结合胆红案的转运蛋白质。<b>胆红素排泄一旦发生障碍,结合胆红素就可返流入血</b>。对UDP-葡糖醛酸基转移酶具有诱导作用的<b>苯巴比妥</b>等药物对结合胆红素从肝细胞到胆汁的分泌也同样具有诱导作用,可见胆红素的结合转化与分泌构成相互协调的功能体系。<br>血浆中的胆红素通过<u>肝细胞膜的自由扩散、肝细胞质内配体蛋白的运转、内质网的葡糖醛酸基转移酶的催化和肝细胞膜的主动分泌等联合作用,不断地被肝细胞摄取、结合转化与排泄</u>,从而不断地得以清除。</p>
-<h2 id="胆红素的排泄"><a href="#胆红素的排泄" class="headerlink" title="胆红素的排泄"></a>胆红素的排泄</h2><p>胆素原是结合胆红素经肠菌作用的产物。经肝细胞转化生成的葡糖醛酸胆红素随胆汁进入肠道,在回肠下段和结肠的肠菌作用下,脱去葡糖醛酸基,并被还原生成d-尿胆素原(d-urobilinogen)和中胆素原( mesobilirubinogen,i-urobilinogen)后者又可进一步还原生成粪胆素原(stercobilinogen,l-urobilinogen),这些物质统称为<b>胆素原</b>。大部分胆素原随粪便排出体外,在肠道下段,这些无色的胆素原接触空气后分别被<b>氧化</b>为相应的d-尿胆素(d-urobilin)、i-尿胆素( i-urobilin)和粪胆素(stereobilin,l-urobilin),三者合称<b>胆素</b>。胆素呈黄褐色,成为粪便的主要颜色。正常人每日排出总量为40<del>280mg。胆道完全梗阻时,胆红素不能排入肠道形成胆素原和进而形成粪胆素,因此粪便呈灰白色或白陶土色。<u>婴儿肠道细菌稀少,未被细菌作用的胆红素随粪便排出,可使粪便呈现橘黄色。</u><br><img src= "bile_pigment_cycle.png"><br>少量胆素原可被肠黏膜重吸收，进入胆素原的肠肝循环肠道中生成的胆素有原10%</del>20%可被肠黏膜细胞重吸收,经门静脉入肝,其中大部分(约90%)以原形随胆汁排人肠腔,<strong>形成胆素原的肠肝循环(enterohepatic urobilinogen cycle)<strong>。只有小部分(10%)胆素原可以进人体循环经肾小球滤出随尿排出,称为</strong>尿胆素原</strong>。正常人每日随尿排出尿胆素原约0.5~4.0mg。尿胆素原与空气接触后被氧化成尿胆素,成为尿的主要色素。临床上将<u>尿胆素原、尿胆素及尿胆红素合称为<b>尿三胆</b></u>,是黄疸类型鉴别诊断的常用指标。正常人尿中检测不到尿胆红素。</p>
+<h2 id="胆红素的排泄"><a href="#胆红素的排泄" class="headerlink" title="胆红素的排泄"></a>胆红素的排泄</h2><p>胆素原是结合胆红素经肠菌作用的产物。经肝细胞转化生成的葡糖醛酸胆红素随胆汁进入肠道,在回肠下段和结肠的肠菌作用下,脱去葡糖醛酸基,并被还原生成d-尿胆素原(d-urobilinogen)和中胆素原( mesobilirubinogen,i-urobilinogen)后者又可进一步还原生成粪胆素原(stercobilinogen,l-urobilinogen),这些物质统称为<b>胆素原</b>。大部分胆素原随粪便排出体外,在肠道下段,这些无色的胆素原接触空气后分别被<b>氧化</b>为相应的d-尿胆素(d-urobilin)、i-尿胆素( i-urobilin)和粪胆素(stereobilin,l-urobilin),三者合称<b>胆素</b>。胆素呈黄褐色,成为粪便的主要颜色。正常人每日排出总量为40~280mg。胆道完全梗阻时,胆红素不能排入肠道形成胆素原和进而形成粪胆素,因此粪便呈灰白色或白陶土色。<u>婴儿肠道细菌稀少,未被细菌作用的胆红素随粪便排出,可使粪便呈现橘黄色。</u><br><img src= "bile_pigment_cycle.png"><br>少量胆素原可被肠黏膜重吸收，进入胆素原的肠肝循环肠道中生成的胆素有原10%~20%可被肠黏膜细胞重吸收,经门静脉入肝,其中大部分(约90%)以原形随胆汁排人肠腔,<strong>形成胆素原的肠肝循环(enterohepatic urobilinogen cycle)<strong>。只有小部分(10%)胆素原可以进人体循环经肾小球滤出随尿排出,称为</strong>尿胆素原</strong>。正常人每日随尿排出尿胆素原约0.5~4.0mg。尿胆素原与空气接触后被氧化成尿胆素,成为尿的主要色素。临床上将<u>尿胆素原、尿胆素及尿胆红素合称为<b>尿三胆</b></u>,是黄疸类型鉴别诊断的常用指标。正常人尿中检测不到尿胆红素。</p>
 <h2 id="黄疸"><a href="#黄疸" class="headerlink" title="黄疸"></a>黄疸</h2><p>参考文章：</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/post/1243066710/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>  
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -101,6 +92,15 @@
 <h1 id="𝜎-𝑧𝑖"><a href="#𝜎-𝑧𝑖" class="headerlink" title="𝜎(𝑧𝑖)"></a>𝜎<br>(<br>𝑧<br>𝑖<br>)</h1><h1 id="𝑒𝑧𝑖∑𝑗"><a href="#𝑒𝑧𝑖∑𝑗" class="headerlink" title="𝑒𝑧𝑖∑𝑗"></a>𝑒<br>𝑧<br>𝑖<br>∑<br>𝑗</h1><p>1<br>𝐶<br>𝑒<br>𝑧<br>𝑗<br>σ(z<br>i<br>​<br> )&#x3D;<br>∑<br>j&#x3D;1<br>C<br>​<br> e<br>z<br>j<br>​</p>
 <p>e<br>z<br>i<br>​<br>Softmax函数的特点：<br>归一化：Softmax函数的输出是一个概率分布，所有类别的概率之和为1。<br>区分度：它放大了原始分数之间的差异。如果一个类别的原始分数比其他类别的分数稍微高一点，经过Softmax函数转换后，这个类别的概率会比其他类别的概率高得多。<br>稳定性：当原始分数非常大或非常小的时候，Softmax函数能够稳定地输出概率值，避免数值计算问题。<br>应用场景：<br>多分类问题：在深度学习模型的输出层，用于将模型的预测输出转换为概率形式，以便于选择概率最高的类别作为预测结果。<br>概率解释：Softmax输出的概率可以用于概率解释和概率推断。<br>与Logistic回归的比较：<br>在二分类问题中，Softmax函数退化为Logistic函数（或称为Sigmoid函数），用于将原始分数转换为概率。而在多分类问题中，Softmax函数能够处理多个类别，输出一个概率分布。</p>
 <p>Softmax函数在深度学习框架中广泛使用，如TensorFlow、PyTorch等，它们提供了方便的Softmax实现，可以直接应用于模型的输出层。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>coagulation</title>
+    <url>/post/coagulation/</url>
+    <content><![CDATA[<p>Abstract：血小板在生理性止血中发挥核心作用，通过血管收缩、血小板激活和血液凝固三个相互促进的过程实现快速止血。凝血反应涉及凝血因子的级联激活，与抗凝系统相互作用，对维持止血平衡至关重要。</p>
+<span id="more"></span>  
+<p>在生理性止血过程中,<strong>血管收缩</strong>、<strong>血小板止血栓形成</strong>及<strong>血液凝固</strong>三个过程是相继发生并相互重叠的。只有在血管收缩、血流减慢时,血小板黏附才容易实现;血小板激活后释放的5-HT和TXA<sub>2</sub>,又可促进血管收缩。活化的血小板可促进血液凝固而具有凝血功能。血液凝固反应也可促进血小板的活化。此外,血凝块中血小板的收缩可引起血块回缩,挤出其中的血清,而使血凝块变得更为坚实,牢固地封住血管的破口。因此,生理性止血的三个过程彼此相互促进,使生理性止血能及时而快速地进行。<strong>血小板在生理性止血的三个环节中均起重要作用,在止血过程中居于中心地位</strong>。当血小板的数量减少或功能降低时,出血时间就会延长。<br><img src= "止血流程.png"><br>而血液凝固，即凝血反应，是凝血因子被级联激活、最终形成血凝块（clot）的过程，凝血系统及抗凝系统的相互作用起到关键作用。</p>
+<p>参考文章：生理学第九版</p>
 ]]></content>
   </entry>
   <entry>
