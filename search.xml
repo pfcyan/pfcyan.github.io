@@ -19,13 +19,22 @@
       </tags>
   </entry>
   <entry>
-    <title>coagulation</title>
-    <url>/post/coagulation/</url>
-    <content><![CDATA[<p>Abstract：</p>
+    <title>JCR分区与中科院分区的关系</title>
+    <url>/post/222/</url>
+    <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
 <span id="more"></span>  
-<p>在生理性止血过程中,<strong>血管收缩</strong>、<strong>血小板止血栓形成</strong>及<strong>血液凝固</strong>三个过程是相继发生并相互重叠的。只有在血管收缩、血流减慢时,血小板黏附才容易实现;血小板激活后释放的5-HT和TXA<sub>2</sub>,又可促进血管收缩。活化的血小板可促进血液凝固而具有凝血功能。血液凝固反应也可促进血小板的活化。此外,血凝块中血小板的收缩可引起血块回缩,挤出其中的血清,而使血凝块变得更为坚实,牢固地封住血管的破口。因此,生理性止血的三个过程彼此相互促进,使生理性止血能及时而快速地进行。<strong>血小板在生理性止血的三个环节中均起重要作用,在止血过程中居于中心地位</strong>。当血小板的数量减少或功能降低时,出血时间就会延长。<br><img src= "止血流程.png"><br>而血液凝固，即凝血反应，是凝血因子被级联激活、最终形成血凝块（clot）的过程，凝血系统及抗凝系统的相互作用起到关键作用。<br>TXA<sub>2</sub></p>
-<p>参考文章：生理学第九版</p>
+<h1 id="IF影响因子和JCR分区"><a href="#IF影响因子和JCR分区" class="headerlink" title="IF影响因子和JCR分区"></a>IF影响因子和JCR分区</h1><p>JCR分区是汤森路透每年出品的《期刊引证报告》（Journal Citation Reports，JCR）根据影响因子（Impact Factor，IF）进行排序形成的分区表。<br>而IF的计算公式为<code>该期刊当年被引数和该期刊前两年发表的文章总数的比值</code><br>可以通过<a href="https://access.clarivate.com/login?app=jcr&referrer=target=https://jcr.clarivate.com/jcr/home&alternative=true&shibShireURL=https://login.incites.clarivate.com/?DestApp=IC2JCR&amp;auth=Shibboleth&shibReturnURL=https://login.incites.clarivate.com/">Clarivate</a>查询</p>
+<h1 id="中科院分区"><a href="#中科院分区" class="headerlink" title="中科院分区"></a>中科院分区</h1><p>中科院分区时中国科学院文献情报中心科学计量中心的科学研究成果，有基础版和升级版：基础版只含SCI期刊，排序标准为近三年IF平均值；升级版包含SCI和SSCI期刊，排序标准为期刊超越指数（即本刊论文的被引频次高于相同主题和相同文献类型的其他期刊的概率）。</p>
+<img src= "2.png" width="50%" height="50%">  
+
+
+<p>查询方式：<br>1.<a href="www.fenqubiao.com">中科院期刊分区表</a>,这个需要单位购买资源啊，还要在单位的VPN下才能使用<del>我没登过</del><br>2.微信小程序，微信小程序“中科院文献情报中心分区表”可以免费查询<del>我没试过</del><br>3.<a href="http://www.letpub.com.cn/index.php?page=journalapp">LetPub</a>，这个直接打开就可以搜，也不需要注册，还是比较方便的</p>
+<h1 id="中科院分区和JCR分区的区别"><a href="#中科院分区和JCR分区的区别" class="headerlink" title="中科院分区和JCR分区的区别"></a>中科院分区和JCR分区的区别</h1><p>最大的区别还是两种分区的期刊比例：JCR和中科院分区虽然都分为4个部分，但各个层级的期刊数量比例是不同的:<br><img src= "Q1.png"><br>JCR分区将该领域文献按IF排序，然后分为四等份，每一部分占该领域文献的25%，命名为Q1~Q4，这里的Q实际上就是四分位数(quartile)<br>而中科院分区则是排序后，按照0~5%，6%~20%，21%~50%，51~100%的比例分成四部分，命名为一区~四区<br>可以看到，中科院分区相对于JCR分区要更严格一些，一区期刊只占5%，是真正的顶刊，所以一区期刊基本也都是Q1，但反过来，Q1期刊在中科院分区中可能会直接掉到三区</p>
+<p>参考文章：<br>1.<a href="https://wjk.usst.edu.cn/2022/0407/c13332a268155/page.htm">期刊分区及查询</a><br>2.<a href="https://www.cnblogs.com/ZeroTensor/p/10860314.html">如何快速查询中科院JCR分区和汤森路透JCR分区</a></p>
 ]]></content>
+      <categories>
+        <category>科研基础</category>
+      </categories>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -47,22 +56,66 @@
 ]]></content>
   </entry>
   <entry>
-    <title>JCR分区与中科院分区的关系</title>
-    <url>/post/222/</url>
-    <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
+    <title>coagulation</title>
+    <url>/post/coagulation/</url>
+    <content><![CDATA[<p>Abstract：血小板在生理性止血中发挥核心作用，通过血管收缩、血小板激活和血液凝固三个相互促进的过程实现快速止血。凝血反应涉及凝血因子的级联激活，与抗凝系统相互作用，对维持止血平衡至关重要。</p>
 <span id="more"></span>  
-<h1 id="IF影响因子和JCR分区"><a href="#IF影响因子和JCR分区" class="headerlink" title="IF影响因子和JCR分区"></a>IF影响因子和JCR分区</h1><p>JCR分区是汤森路透每年出品的《期刊引证报告》（Journal Citation Reports，JCR）根据影响因子（Impact Factor，IF）进行排序形成的分区表。<br>而IF的计算公式为<code>该期刊当年被引数和该期刊前两年发表的文章总数的比值</code><br>可以通过<a href="https://access.clarivate.com/login?app=jcr&referrer=target=https://jcr.clarivate.com/jcr/home&alternative=true&shibShireURL=https://login.incites.clarivate.com/?DestApp=IC2JCR&amp;auth=Shibboleth&shibReturnURL=https://login.incites.clarivate.com/">Clarivate</a>查询</p>
-<h1 id="中科院分区"><a href="#中科院分区" class="headerlink" title="中科院分区"></a>中科院分区</h1><p>中科院分区时中国科学院文献情报中心科学计量中心的科学研究成果，有基础版和升级版：基础版只含SCI期刊，排序标准为近三年IF平均值；升级版包含SCI和SSCI期刊，排序标准为期刊超越指数（即本刊论文的被引频次高于相同主题和相同文献类型的其他期刊的概率）。</p>
-<img src= "2.png" width="50%" height="50%">  
+<p>在生理性止血过程中,<strong>血管收缩</strong>、<strong>血小板止血栓形成</strong>及<strong>血液凝固</strong>三个过程是相继发生并相互重叠的。只有在血管收缩、血流减慢时,血小板黏附才容易实现;血小板激活后释放的5-HT和TXA<sub>2</sub>,又可促进血管收缩。活化的血小板可促进血液凝固而具有凝血功能。血液凝固反应也可促进血小板的活化。此外,血凝块中血小板的收缩可引起血块回缩,挤出其中的血清,而使血凝块变得更为坚实,牢固地封住血管的破口。因此,生理性止血的三个过程彼此相互促进,使生理性止血能及时而快速地进行。<strong>血小板在生理性止血的三个环节中均起重要作用,在止血过程中居于中心地位</strong>。当血小板的数量减少或功能降低时,出血时间就会延长。<br><img src= "止血流程.png"><br>而血液凝固，即凝血反应，是凝血因子被级联激活、最终形成血凝块（clot）的过程，凝血系统及抗凝系统的相互作用起到关键作用。</p>
+<p>参考文章：生理学第九版</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>softmax</title>
+    <url>/post/693561082/</url>
+    <content><![CDATA[<p>Softmax是一个在机器学习和深度学习中常用的函数，特别是在处理分类问题时。它通常用于多分类模型的输出层，将模型输出的原始分数（也称为logits）转换成概率分布。</p>
+<h1 id="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"><a href="#Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧" class="headerlink" title="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"></a>Softmax函数的定义：<br>对于一个样本，假设我们有一个包含<br>𝐶<br>C个类别的分类问题，模型输出的原始分数向量为<br>𝑧</h1><h1 id="𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧"><a href="#𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧" class="headerlink" title="[𝑧1,𝑧2,...,𝑧𝐶]z&#x3D;[z1​ ,z2​ ,…,zC​ ]。Softmax函数将这个向量转换为一个概率分布𝜎(𝑧)"></a>[<br>𝑧<br>1<br>,<br>𝑧<br>2<br>,<br>.<br>.<br>.<br>,<br>𝑧<br>𝐶<br>]<br>z&#x3D;[z<br>1<br>​<br> ,z<br>2<br>​<br> ,…,z<br>C<br>​<br> ]。Softmax函数将这个向量转换为一个概率分布<br>𝜎<br>(<br>𝑧<br>)</h1><p>[<br>𝜎<br>(<br>𝑧<br>1<br>)<br>,<br>𝜎<br>(<br>𝑧<br>2<br>)<br>,<br>.<br>.<br>.<br>,<br>𝜎<br>(<br>𝑧<br>𝐶<br>)<br>]<br>σ(z)&#x3D;[σ(z<br>1<br>​<br> ),σ(z<br>2<br>​<br> ),…,σ(z<br>C<br>​<br> )]，其中每个元素<br>𝜎<br>(<br>𝑧<br>𝑖<br>)<br>σ(z<br>i<br>​<br> ) 表示样本属于第<br>𝑖<br>i 个类别的概率，计算公式为：</p>
+<h1 id="𝜎-𝑧𝑖"><a href="#𝜎-𝑧𝑖" class="headerlink" title="𝜎(𝑧𝑖)"></a>𝜎<br>(<br>𝑧<br>𝑖<br>)</h1><h1 id="𝑒𝑧𝑖∑𝑗"><a href="#𝑒𝑧𝑖∑𝑗" class="headerlink" title="𝑒𝑧𝑖∑𝑗"></a>𝑒<br>𝑧<br>𝑖<br>∑<br>𝑗</h1><p>1<br>𝐶<br>𝑒<br>𝑧<br>𝑗<br>σ(z<br>i<br>​<br> )&#x3D;<br>∑<br>j&#x3D;1<br>C<br>​<br> e<br>z<br>j<br>​</p>
+<p>e<br>z<br>i<br>​<br>Softmax函数的特点：<br>归一化：Softmax函数的输出是一个概率分布，所有类别的概率之和为1。<br>区分度：它放大了原始分数之间的差异。如果一个类别的原始分数比其他类别的分数稍微高一点，经过Softmax函数转换后，这个类别的概率会比其他类别的概率高得多。<br>稳定性：当原始分数非常大或非常小的时候，Softmax函数能够稳定地输出概率值，避免数值计算问题。<br>应用场景：<br>多分类问题：在深度学习模型的输出层，用于将模型的预测输出转换为概率形式，以便于选择概率最高的类别作为预测结果。<br>概率解释：Softmax输出的概率可以用于概率解释和概率推断。<br>与Logistic回归的比较：<br>在二分类问题中，Softmax函数退化为Logistic函数（或称为Sigmoid函数），用于将原始分数转换为概率。而在多分类问题中，Softmax函数能够处理多个类别，输出一个概率分布。</p>
+<p>Softmax函数在深度学习框架中广泛使用，如TensorFlow、PyTorch等，它们提供了方便的Softmax实现，可以直接应用于模型的输出层。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客文章编写及站点优化</title>
+    <url>/post/2492903111/</url>
+    <content><![CDATA[<p>Abstract：博客文章的编写过程，及布局、美化</p>
+<span id="more"></span>  
+<h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo n [layout_name] text_name #默认为post的布局</span><br></pre></td></tr></table></figure>
 
+<h2 id="新建草稿"><a href="#新建草稿" class="headerlink" title="新建草稿"></a>新建草稿</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo n draft title</span><br><span class="line">$ hexo publish title</span><br></pre></td></tr></table></figure>
+<p>可以在draft文件夹中新建一个title.md的文件，通过publish命令可以将其推送到_posts文件夹中<br>hexo的命令一般不处理草稿，不过可以通过静态页面显示草稿:<br><code>$ hexo s --draft</code></p>
+<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
+<h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1><h2 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h2><p>在文章希望预览的内容后面输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
+<p>即可在首页完成预览<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_1.png"></p>
+<h2 id="优化文章默认格式"><a href="#优化文章默认格式" class="headerlink" title="优化文章默认格式"></a>优化文章默认格式</h2><p>scaffolds文件夹内存在三个自带的Front-matter文件，可自行修改，目前的布局设定为:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">abbrlink:</span><br><span class="line">---</span><br><span class="line">Abstract：</span><br><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
+<p>其实就是文章建立后的默认属性和内容啦</p>
+<h2 id="优化文章永久链接为数字编号"><a href="#优化文章永久链接为数字编号" class="headerlink" title="优化文章永久链接为数字编号"></a>优化文章永久链接为数字编号</h2><p>安装abbrlink插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<p>_config.yml修改配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/</span><br><span class="line">#permalink_defaults:</span><br><span class="line">permalink: posts/:abbrlink/</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32 #support crc16(default) and crc32</span><br><span class="line">  rep: dec   #support dec(default) and hex</span><br></pre></td></tr></table></figure>
+<p>重新部署后不同参数的链接可有如下效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crc16 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/66c8.html</span><br><span class="line"></span><br><span class="line">crc16 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/65535.html</span><br><span class="line">复制</span><br><span class="line">crc32 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/8ddf18fb.html</span><br><span class="line"></span><br><span class="line">crc32 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/1690090958.html</span><br></pre></td></tr></table></figure>
 
-<p>查询方式：<br>1.<a href="www.fenqubiao.com">中科院期刊分区表</a>,这个需要单位购买资源啊，还要在单位的VPN下才能使用<del>我没登过</del><br>2.微信小程序，微信小程序“中科院文献情报中心分区表”可以免费查询<del>我没试过</del><br>3.<a href="http://www.letpub.com.cn/index.php?page=journalapp">LetPub</a>，这个直接打开就可以搜，也不需要注册，还是比较方便的</p>
-<h1 id="中科院分区和JCR分区的区别"><a href="#中科院分区和JCR分区的区别" class="headerlink" title="中科院分区和JCR分区的区别"></a>中科院分区和JCR分区的区别</h1><p>最大的区别还是两种分区的期刊比例：JCR和中科院分区虽然都分为4个部分，但各个层级的期刊数量比例是不同的:<br><img src= "Q1.png"><br>JCR分区将该领域文献按IF排序，然后分为四等份，每一部分占该领域文献的25%，命名为Q1~Q4，这里的Q实际上就是四分位数(quartile)<br>而中科院分区则是排序后，按照0~5%，6%~20%，21%~50%，51~100%的比例分成四部分，命名为一区~四区<br>可以看到，中科院分区相对于JCR分区要更严格一些，一区期刊只占5%，是真正的顶刊，所以一区期刊基本也都是Q1，但反过来，Q1期刊在中科院分区中可能会直接掉到三区</p>
-<p>参考文章：<br>1.<a href="https://wjk.usst.edu.cn/2022/0407/c13332a268155/page.htm">期刊分区及查询</a><br>2.<a href="https://www.cnblogs.com/ZeroTensor/p/10860314.html">如何快速查询中科院JCR分区和汤森路透JCR分区</a></p>
+<h2 id="添加文章字数和阅读时长"><a href="#添加文章字数和阅读时长" class="headerlink" title="添加文章字数和阅读时长"></a>添加文章字数和阅读时长</h2><p>安装hexo-symbols-count-time插件：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
+<p>修改hexo配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  symbols: true                # 文章字数统计</span><br><span class="line">  time: true                   # 文章阅读时长</span><br><span class="line">  total_symbols: true          # 站点总字数统计</span><br><span class="line">  total_time: true             # 站点总阅读时长</span><br><span class="line">  exclude_codeblock: false     # 排除代码字数统计</span><br><span class="line">  awl: 2                       # 字平均单词长度 - Average Word Length</span><br><span class="line">  wpm: 275                     # 字/每份</span><br><span class="line">  suffix: &quot;mins.&quot;              # 后缀/单位</span><br></pre></td></tr></table></figure>
+<p>修改NexT主题配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span><br><span class="line"># 设置博客单词统计</span><br><span class="line">symbols_count_time:</span><br><span class="line">  # 是否另起一行（true的话不和发表时间等同一行）</span><br><span class="line">  separated_meta: true</span><br><span class="line">  # 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）</span><br><span class="line">  item_text_post: true</span><br><span class="line">  # 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）</span><br><span class="line">  item_text_total: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>效果图：<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_2.png"></p>
+<h2 id="统计文章阅读人数"><a href="#统计文章阅读人数" class="headerlink" title="统计文章阅读人数"></a>统计文章阅读人数</h2><p>修改NexT主题配置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Show Views / Visitors of the website / page with busuanzi.</span><br><span class="line"># Get more information on http://ibruce.info/2015/04/04/busuanzi</span><br><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: fa fa-user</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: fa fa-eye</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: fa fa-eye</span><br></pre></td></tr></table></figure>
+
+<h1 id="站点优化"><a href="#站点优化" class="headerlink" title="站点优化"></a>站点优化</h1><h2 id="新建边栏"><a href="#新建边栏" class="headerlink" title="新建边栏"></a>新建边栏</h2><p>参考文章：<br>1.<a href="https://cloud.tencent.com/developer/article/1662763">Hexo博客进阶教程（一）| 优化文章永久链接为数字编号</a><br>2.<a href="https://zhuanlan.zhihu.com/p/106060640">个人博客第8篇——优化主题（持续更新）</a><br>3.<a href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</a><br>4.<a href="https://blog.csdn.net/weixin_48927364/article/details/123295436">【Hexo】nexT主题使用攻略基础——添加分类、标签及关于</a></p>
 ]]></content>
       <categories>
-        <category>科研基础</category>
+        <category>blog</category>
       </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
   </entry>
   <entry>
     <title>文本测试</title>
@@ -121,58 +174,5 @@
         <tag>Hexo</tag>
         <tag>Next</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>博客文章编写及站点优化</title>
-    <url>/post/2492903111/</url>
-    <content><![CDATA[<p>Abstract：博客文章的编写过程，及布局、美化</p>
-<span id="more"></span>  
-<h1 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo n [layout_name] text_name #默认为post的布局</span><br></pre></td></tr></table></figure>
-
-<h2 id="新建草稿"><a href="#新建草稿" class="headerlink" title="新建草稿"></a>新建草稿</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo n draft title</span><br><span class="line">$ hexo publish title</span><br></pre></td></tr></table></figure>
-<p>可以在draft文件夹中新建一个title.md的文件，通过publish命令可以将其推送到_posts文件夹中<br>hexo的命令一般不处理草稿，不过可以通过静态页面显示草稿:<br><code>$ hexo s --draft</code></p>
-<h2 id="内容编写"><a href="#内容编写" class="headerlink" title="内容编写"></a>内容编写</h2><p>参考<a href="https://pfcyan.com/post/1952948729/">文本测试</a></p>
-<h1 id="博客修饰"><a href="#博客修饰" class="headerlink" title="博客修饰"></a>博客修饰</h1><h2 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h2><p>在文章希望预览的内容后面输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
-<p>即可在首页完成预览<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_1.png"></p>
-<h2 id="优化文章默认格式"><a href="#优化文章默认格式" class="headerlink" title="优化文章默认格式"></a>优化文章默认格式</h2><p>scaffolds文件夹内存在三个自带的Front-matter文件，可自行修改，目前的布局设定为:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">abbrlink:</span><br><span class="line">---</span><br><span class="line">Abstract：</span><br><span class="line">&lt;!--more--&gt;  </span><br></pre></td></tr></table></figure>
-<p>其实就是文章建立后的默认属性和内容啦</p>
-<h2 id="优化文章永久链接为数字编号"><a href="#优化文章永久链接为数字编号" class="headerlink" title="优化文章永久链接为数字编号"></a>优化文章永久链接为数字编号</h2><p>安装abbrlink插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<p>_config.yml修改配置</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/</span><br><span class="line">#permalink_defaults:</span><br><span class="line">permalink: posts/:abbrlink/</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32 #support crc16(default) and crc32</span><br><span class="line">  rep: dec   #support dec(default) and hex</span><br></pre></td></tr></table></figure>
-<p>重新部署后不同参数的链接可有如下效果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crc16 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/66c8.html</span><br><span class="line"></span><br><span class="line">crc16 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/65535.html</span><br><span class="line">复制</span><br><span class="line">crc32 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/8ddf18fb.html</span><br><span class="line"></span><br><span class="line">crc32 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/1690090958.html</span><br></pre></td></tr></table></figure>
-
-<h2 id="添加文章字数和阅读时长"><a href="#添加文章字数和阅读时长" class="headerlink" title="添加文章字数和阅读时长"></a>添加文章字数和阅读时长</h2><p>安装hexo-symbols-count-time插件：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
-<p>修改hexo配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  symbols: true                # 文章字数统计</span><br><span class="line">  time: true                   # 文章阅读时长</span><br><span class="line">  total_symbols: true          # 站点总字数统计</span><br><span class="line">  total_time: true             # 站点总阅读时长</span><br><span class="line">  exclude_codeblock: false     # 排除代码字数统计</span><br><span class="line">  awl: 2                       # 字平均单词长度 - Average Word Length</span><br><span class="line">  wpm: 275                     # 字/每份</span><br><span class="line">  suffix: &quot;mins.&quot;              # 后缀/单位</span><br></pre></td></tr></table></figure>
-<p>修改NexT主题配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span><br><span class="line"># 设置博客单词统计</span><br><span class="line">symbols_count_time:</span><br><span class="line">  # 是否另起一行（true的话不和发表时间等同一行）</span><br><span class="line">  separated_meta: true</span><br><span class="line">  # 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）</span><br><span class="line">  item_text_post: true</span><br><span class="line">  # 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）</span><br><span class="line">  item_text_total: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>效果图：<br><img src="/uploads/%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99_2.png"></p>
-<h2 id="统计文章阅读人数"><a href="#统计文章阅读人数" class="headerlink" title="统计文章阅读人数"></a>统计文章阅读人数</h2><p>修改NexT主题配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Show Views / Visitors of the website / page with busuanzi.</span><br><span class="line"># Get more information on http://ibruce.info/2015/04/04/busuanzi</span><br><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: fa fa-user</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: fa fa-eye</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: fa fa-eye</span><br></pre></td></tr></table></figure>
-
-<h1 id="站点优化"><a href="#站点优化" class="headerlink" title="站点优化"></a>站点优化</h1><h2 id="新建边栏"><a href="#新建边栏" class="headerlink" title="新建边栏"></a>新建边栏</h2><p>参考文章：<br>1.<a href="https://cloud.tencent.com/developer/article/1662763">Hexo博客进阶教程（一）| 优化文章永久链接为数字编号</a><br>2.<a href="https://zhuanlan.zhihu.com/p/106060640">个人博客第8篇——优化主题（持续更新）</a><br>3.<a href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</a><br>4.<a href="https://blog.csdn.net/weixin_48927364/article/details/123295436">【Hexo】nexT主题使用攻略基础——添加分类、标签及关于</a></p>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>softmax</title>
-    <url>/post/693561082/</url>
-    <content><![CDATA[<p>Softmax是一个在机器学习和深度学习中常用的函数，特别是在处理分类问题时。它通常用于多分类模型的输出层，将模型输出的原始分数（也称为logits）转换成概率分布。</p>
-<h1 id="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"><a href="#Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧" class="headerlink" title="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"></a>Softmax函数的定义：<br>对于一个样本，假设我们有一个包含<br>𝐶<br>C个类别的分类问题，模型输出的原始分数向量为<br>𝑧</h1><h1 id="𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧"><a href="#𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧" class="headerlink" title="[𝑧1,𝑧2,...,𝑧𝐶]z&#x3D;[z1​ ,z2​ ,…,zC​ ]。Softmax函数将这个向量转换为一个概率分布𝜎(𝑧)"></a>[<br>𝑧<br>1<br>,<br>𝑧<br>2<br>,<br>.<br>.<br>.<br>,<br>𝑧<br>𝐶<br>]<br>z&#x3D;[z<br>1<br>​<br> ,z<br>2<br>​<br> ,…,z<br>C<br>​<br> ]。Softmax函数将这个向量转换为一个概率分布<br>𝜎<br>(<br>𝑧<br>)</h1><p>[<br>𝜎<br>(<br>𝑧<br>1<br>)<br>,<br>𝜎<br>(<br>𝑧<br>2<br>)<br>,<br>.<br>.<br>.<br>,<br>𝜎<br>(<br>𝑧<br>𝐶<br>)<br>]<br>σ(z)&#x3D;[σ(z<br>1<br>​<br> ),σ(z<br>2<br>​<br> ),…,σ(z<br>C<br>​<br> )]，其中每个元素<br>𝜎<br>(<br>𝑧<br>𝑖<br>)<br>σ(z<br>i<br>​<br> ) 表示样本属于第<br>𝑖<br>i 个类别的概率，计算公式为：</p>
-<h1 id="𝜎-𝑧𝑖"><a href="#𝜎-𝑧𝑖" class="headerlink" title="𝜎(𝑧𝑖)"></a>𝜎<br>(<br>𝑧<br>𝑖<br>)</h1><h1 id="𝑒𝑧𝑖∑𝑗"><a href="#𝑒𝑧𝑖∑𝑗" class="headerlink" title="𝑒𝑧𝑖∑𝑗"></a>𝑒<br>𝑧<br>𝑖<br>∑<br>𝑗</h1><p>1<br>𝐶<br>𝑒<br>𝑧<br>𝑗<br>σ(z<br>i<br>​<br> )&#x3D;<br>∑<br>j&#x3D;1<br>C<br>​<br> e<br>z<br>j<br>​</p>
-<p>e<br>z<br>i<br>​<br>Softmax函数的特点：<br>归一化：Softmax函数的输出是一个概率分布，所有类别的概率之和为1。<br>区分度：它放大了原始分数之间的差异。如果一个类别的原始分数比其他类别的分数稍微高一点，经过Softmax函数转换后，这个类别的概率会比其他类别的概率高得多。<br>稳定性：当原始分数非常大或非常小的时候，Softmax函数能够稳定地输出概率值，避免数值计算问题。<br>应用场景：<br>多分类问题：在深度学习模型的输出层，用于将模型的预测输出转换为概率形式，以便于选择概率最高的类别作为预测结果。<br>概率解释：Softmax输出的概率可以用于概率解释和概率推断。<br>与Logistic回归的比较：<br>在二分类问题中，Softmax函数退化为Logistic函数（或称为Sigmoid函数），用于将原始分数转换为概率。而在多分类问题中，Softmax函数能够处理多个类别，输出一个概率分布。</p>
-<p>Softmax函数在深度学习框架中广泛使用，如TensorFlow、PyTorch等，它们提供了方便的Softmax实现，可以直接应用于模型的输出层。</p>
-]]></content>
   </entry>
 </search>
