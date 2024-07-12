@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JCR分区与中科院分区的关系</title>
-    <url>/post/222/</url>
-    <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
-<span id="more"></span>  
-<h1 id="IF影响因子和JCR分区"><a href="#IF影响因子和JCR分区" class="headerlink" title="IF影响因子和JCR分区"></a>IF影响因子和JCR分区</h1><p>JCR分区是汤森路透每年出品的《期刊引证报告》（Journal Citation Reports，JCR）根据影响因子（Impact Factor，IF）进行排序形成的分区表。<br>而IF的计算公式为<code>该期刊当年被引数和该期刊前两年发表的文章总数的比值</code><br>可以通过<a href="https://access.clarivate.com/login?app=jcr&referrer=target=https://jcr.clarivate.com/jcr/home&alternative=true&shibShireURL=https://login.incites.clarivate.com/?DestApp=IC2JCR&amp;auth=Shibboleth&shibReturnURL=https://login.incites.clarivate.com/">Clarivate</a>查询</p>
-<h1 id="中科院分区"><a href="#中科院分区" class="headerlink" title="中科院分区"></a>中科院分区</h1><p>中科院分区时中国科学院文献情报中心科学计量中心的科学研究成果，有基础版和升级版：基础版只含SCI期刊，排序标准为近三年IF平均值；升级版包含SCI和SSCI期刊，排序标准为期刊超越指数（即本刊论文的被引频次高于相同主题和相同文献类型的其他期刊的概率）。</p>
-<img src= "2.png" width="50%" height="50%">  
-
-
-<p>查询方式：<br>1.<a href="www.fenqubiao.com">中科院期刊分区表</a>,这个需要单位购买资源啊，还要在单位的VPN下才能使用<del>我没登过</del><br>2.微信小程序，微信小程序“中科院文献情报中心分区表”可以免费查询<del>我没试过</del><br>3.<a href="http://www.letpub.com.cn/index.php?page=journalapp">LetPub</a>，这个直接打开就可以搜，也不需要注册，还是比较方便的</p>
-<h1 id="中科院分区和JCR分区的区别"><a href="#中科院分区和JCR分区的区别" class="headerlink" title="中科院分区和JCR分区的区别"></a>中科院分区和JCR分区的区别</h1><p>最大的区别还是两种分区的期刊比例：JCR和中科院分区虽然都分为4个部分，但各个层级的期刊数量比例是不同的:<br><img src= "Q1.png"><br>JCR分区将该领域文献按IF排序，然后分为四等份，每一部分占该领域文献的25%，命名为Q1~Q4，这里的Q实际上就是四分位数(quartile)<br>而中科院分区则是排序后，按照0~5%，6%~20%，21%~50%，51~100%的比例分成四部分，命名为一区~四区<br>可以看到，中科院分区相对于JCR分区要更严格一些，一区期刊只占5%，是真正的顶刊，所以一区期刊基本也都是Q1，但反过来，Q1期刊在中科院分区中可能会直接掉到三区</p>
-<p>参考文章：<br>1.<a href="https://wjk.usst.edu.cn/2022/0407/c13332a268155/page.htm">期刊分区及查询</a><br>2.<a href="https://www.cnblogs.com/ZeroTensor/p/10860314.html">如何快速查询中科院JCR分区和汤森路透JCR分区</a></p>
-]]></content>
-      <categories>
-        <category>科研基础</category>
-      </categories>
-  </entry>
-  <entry>
     <title>INR</title>
     <url>/post/INR/</url>
     <content><![CDATA[<p>Abstract：国际标准化比值（INR）是一种用于监测血液凝固时间的实验室检查项目，特别是用于评估口服抗凝药物如华法林的效果。INR的计算过程旨在校正不同实验室和不同试剂对凝血酶原时间（PT）测量值的影响，确保结果的一致性和可比性。</p>
@@ -37,28 +19,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/post/1243066710/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>  
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>胆红素的前世今生</title>
     <url>/post/bile_pigment/</url>
-    <content><![CDATA[<p>Abstract：</p>
+    <content><![CDATA[<p>Abstract：胆红素是体内铁卟啉类化合物的代谢产物，主要来源于血红蛋白的降解，通过肝脏代谢转化为结合胆红素，并随胆汁排出体外。异常胆红素水平可导致黄疸。</p>
 <span id="more"></span>  
 <p>胆色素(bile pigment)是体内<strong>铁卟啉类化合物</strong>的主要分解代谢产物,包括胆绿素(biliverdin)、胆红素(bilirubin)、胆素原(bilinogen)和胆素(bilin)。这些化合物主要随胆汁排出体外,其中胆红素居于胆色素代谢的中心,是人体胆汁中的主要色素,呈橙黄色。<br><img src= "bile_pigment_cycle.png">  </p>
 <h2 id="胆红素的来源"><a href="#胆红素的来源" class="headerlink" title="胆红素的来源"></a>胆红素的来源</h2><p>胆红素是铁卟（bu）啉类化合物的降解产物，体内铁卟啉类化合物包括<strong>血红蛋白</strong>、肌红蛋白、细胞色素、过氧化氢酶和过氧化物酶等。正常人每天可生成250~350mg胆红素,其中约80%以上来自衰老红细胞破坏所释放的血红蛋白的分解。小部分胆红素来自造血过程中红细胞的过早破坏(无效红细胞生成),还有少量胆红素来自其他各种含血红素蛋白如细胞色素 P450。肌红蛋白由于更新率低,所占比例很小。<br><img src= "血红蛋白.png"><br>血红素（环状四吡咯环结构）在单核吞噬系统细胞微粒体的血红素加氧酶（heme oxygenase,HO）催化，在至少3分子氧和3分子NADPH的存在下，生成水溶性的胆绿素（线性四吡咯结构），释放的Fe<sup>2+</sup>氧化为Fe<sup>3+</sup>进入铁代谢池。<br>胆绿素进一步在胞质活性很强的胆绿素还原酶(biliverdin reductase)催化下,由NADPH供氢,还原生成胆红素。<br>由于胆红素分子内氢键的作用，胆红素具有疏水亲脂的性质，极易自由透过细胞膜进入血液。</p>
@@ -85,13 +48,40 @@
 ]]></content>
   </entry>
   <entry>
-    <title>softmax</title>
-    <url>/post/693561082/</url>
-    <content><![CDATA[<p>Softmax是一个在机器学习和深度学习中常用的函数，特别是在处理分类问题时。它通常用于多分类模型的输出层，将模型输出的原始分数（也称为logits）转换成概率分布。</p>
-<h1 id="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"><a href="#Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧" class="headerlink" title="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"></a>Softmax函数的定义：<br>对于一个样本，假设我们有一个包含<br>𝐶<br>C个类别的分类问题，模型输出的原始分数向量为<br>𝑧</h1><h1 id="𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧"><a href="#𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧" class="headerlink" title="[𝑧1,𝑧2,...,𝑧𝐶]z&#x3D;[z1​ ,z2​ ,…,zC​ ]。Softmax函数将这个向量转换为一个概率分布𝜎(𝑧)"></a>[<br>𝑧<br>1<br>,<br>𝑧<br>2<br>,<br>.<br>.<br>.<br>,<br>𝑧<br>𝐶<br>]<br>z&#x3D;[z<br>1<br>​<br> ,z<br>2<br>​<br> ,…,z<br>C<br>​<br> ]。Softmax函数将这个向量转换为一个概率分布<br>𝜎<br>(<br>𝑧<br>)</h1><p>[<br>𝜎<br>(<br>𝑧<br>1<br>)<br>,<br>𝜎<br>(<br>𝑧<br>2<br>)<br>,<br>.<br>.<br>.<br>,<br>𝜎<br>(<br>𝑧<br>𝐶<br>)<br>]<br>σ(z)&#x3D;[σ(z<br>1<br>​<br> ),σ(z<br>2<br>​<br> ),…,σ(z<br>C<br>​<br> )]，其中每个元素<br>𝜎<br>(<br>𝑧<br>𝑖<br>)<br>σ(z<br>i<br>​<br> ) 表示样本属于第<br>𝑖<br>i 个类别的概率，计算公式为：</p>
-<h1 id="𝜎-𝑧𝑖"><a href="#𝜎-𝑧𝑖" class="headerlink" title="𝜎(𝑧𝑖)"></a>𝜎<br>(<br>𝑧<br>𝑖<br>)</h1><h1 id="𝑒𝑧𝑖∑𝑗"><a href="#𝑒𝑧𝑖∑𝑗" class="headerlink" title="𝑒𝑧𝑖∑𝑗"></a>𝑒<br>𝑧<br>𝑖<br>∑<br>𝑗</h1><p>1<br>𝐶<br>𝑒<br>𝑧<br>𝑗<br>σ(z<br>i<br>​<br> )&#x3D;<br>∑<br>j&#x3D;1<br>C<br>​<br> e<br>z<br>j<br>​</p>
-<p>e<br>z<br>i<br>​<br>Softmax函数的特点：<br>归一化：Softmax函数的输出是一个概率分布，所有类别的概率之和为1。<br>区分度：它放大了原始分数之间的差异。如果一个类别的原始分数比其他类别的分数稍微高一点，经过Softmax函数转换后，这个类别的概率会比其他类别的概率高得多。<br>稳定性：当原始分数非常大或非常小的时候，Softmax函数能够稳定地输出概率值，避免数值计算问题。<br>应用场景：<br>多分类问题：在深度学习模型的输出层，用于将模型的预测输出转换为概率形式，以便于选择概率最高的类别作为预测结果。<br>概率解释：Softmax输出的概率可以用于概率解释和概率推断。<br>与Logistic回归的比较：<br>在二分类问题中，Softmax函数退化为Logistic函数（或称为Sigmoid函数），用于将原始分数转换为概率。而在多分类问题中，Softmax函数能够处理多个类别，输出一个概率分布。</p>
-<p>Softmax函数在深度学习框架中广泛使用，如TensorFlow、PyTorch等，它们提供了方便的Softmax实现，可以直接应用于模型的输出层。</p>
+    <title>JCR分区与中科院分区的关系</title>
+    <url>/post/222/</url>
+    <content><![CDATA[<p>Abstract：本文概述了期刊影响因子（IF）和JCR分区的基本概念，以及中科院分区与JCR分区的不同之处。JCR分区根据IF将期刊分为四等分，而中科院分区则采用不同的比例，更为严格地划分期刊等级。</p>
+<span id="more"></span>  
+<h1 id="IF影响因子和JCR分区"><a href="#IF影响因子和JCR分区" class="headerlink" title="IF影响因子和JCR分区"></a>IF影响因子和JCR分区</h1><p>JCR分区是汤森路透每年出品的《期刊引证报告》（Journal Citation Reports，JCR）根据影响因子（Impact Factor，IF）进行排序形成的分区表。<br>而IF的计算公式为<code>该期刊当年被引数和该期刊前两年发表的文章总数的比值</code><br>可以通过<a href="https://access.clarivate.com/login?app=jcr&referrer=target=https://jcr.clarivate.com/jcr/home&alternative=true&shibShireURL=https://login.incites.clarivate.com/?DestApp=IC2JCR&amp;auth=Shibboleth&shibReturnURL=https://login.incites.clarivate.com/">Clarivate</a>查询</p>
+<h1 id="中科院分区"><a href="#中科院分区" class="headerlink" title="中科院分区"></a>中科院分区</h1><p>中科院分区时中国科学院文献情报中心科学计量中心的科学研究成果，有基础版和升级版：基础版只含SCI期刊，排序标准为近三年IF平均值；升级版包含SCI和SSCI期刊，排序标准为期刊超越指数（即本刊论文的被引频次高于相同主题和相同文献类型的其他期刊的概率）。</p>
+<img src= "2.png" width="50%" height="50%">  
+
+
+<p>查询方式：<br>1.<a href="www.fenqubiao.com">中科院期刊分区表</a>,这个需要单位购买资源啊，还要在单位的VPN下才能使用<del>我没登过</del><br>2.微信小程序，微信小程序“中科院文献情报中心分区表”可以免费查询<del>我没试过</del><br>3.<a href="http://www.letpub.com.cn/index.php?page=journalapp">LetPub</a>，这个直接打开就可以搜，也不需要注册，还是比较方便的</p>
+<h1 id="中科院分区和JCR分区的区别"><a href="#中科院分区和JCR分区的区别" class="headerlink" title="中科院分区和JCR分区的区别"></a>中科院分区和JCR分区的区别</h1><p>最大的区别还是两种分区的期刊比例：JCR和中科院分区虽然都分为4个部分，但各个层级的期刊数量比例是不同的:<br><img src= "Q1.png"><br>JCR分区将该领域文献按IF排序，然后分为四等份，每一部分占该领域文献的25%，命名为Q1~Q4，这里的Q实际上就是四分位数(quartile)<br>而中科院分区则是排序后，按照0~5%，6%~20%，21%~50%，51~100%的比例分成四部分，命名为一区~四区<br>可以看到，中科院分区相对于JCR分区要更严格一些，一区期刊只占5%，是真正的顶刊，所以一区期刊基本也都是Q1，但反过来，Q1期刊在中科院分区中可能会直接掉到三区</p>
+<p>参考文章：<br>1.<a href="https://wjk.usst.edu.cn/2022/0407/c13332a268155/page.htm">期刊分区及查询</a><br>2.<a href="https://www.cnblogs.com/ZeroTensor/p/10860314.html">如何快速查询中科院JCR分区和汤森路透JCR分区</a></p>
+]]></content>
+      <categories>
+        <category>科研基础</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/post/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>  
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -145,6 +135,16 @@
         <tag>Hexo</tag>
         <tag>Next</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>softmax</title>
+    <url>/post/693561082/</url>
+    <content><![CDATA[<p>Softmax是一个在机器学习和深度学习中常用的函数，特别是在处理分类问题时。它通常用于多分类模型的输出层，将模型输出的原始分数（也称为logits）转换成概率分布。</p>
+<h1 id="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"><a href="#Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧" class="headerlink" title="Softmax函数的定义：对于一个样本，假设我们有一个包含𝐶C个类别的分类问题，模型输出的原始分数向量为𝑧"></a>Softmax函数的定义：<br>对于一个样本，假设我们有一个包含<br>𝐶<br>C个类别的分类问题，模型输出的原始分数向量为<br>𝑧</h1><h1 id="𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧"><a href="#𝑧1-𝑧2-𝑧𝐶-z-z1​-z2​-…-zC​-。Softmax函数将这个向量转换为一个概率分布𝜎-𝑧" class="headerlink" title="[𝑧1,𝑧2,...,𝑧𝐶]z&#x3D;[z1​ ,z2​ ,…,zC​ ]。Softmax函数将这个向量转换为一个概率分布𝜎(𝑧)"></a>[<br>𝑧<br>1<br>,<br>𝑧<br>2<br>,<br>.<br>.<br>.<br>,<br>𝑧<br>𝐶<br>]<br>z&#x3D;[z<br>1<br>​<br> ,z<br>2<br>​<br> ,…,z<br>C<br>​<br> ]。Softmax函数将这个向量转换为一个概率分布<br>𝜎<br>(<br>𝑧<br>)</h1><p>[<br>𝜎<br>(<br>𝑧<br>1<br>)<br>,<br>𝜎<br>(<br>𝑧<br>2<br>)<br>,<br>.<br>.<br>.<br>,<br>𝜎<br>(<br>𝑧<br>𝐶<br>)<br>]<br>σ(z)&#x3D;[σ(z<br>1<br>​<br> ),σ(z<br>2<br>​<br> ),…,σ(z<br>C<br>​<br> )]，其中每个元素<br>𝜎<br>(<br>𝑧<br>𝑖<br>)<br>σ(z<br>i<br>​<br> ) 表示样本属于第<br>𝑖<br>i 个类别的概率，计算公式为：</p>
+<h1 id="𝜎-𝑧𝑖"><a href="#𝜎-𝑧𝑖" class="headerlink" title="𝜎(𝑧𝑖)"></a>𝜎<br>(<br>𝑧<br>𝑖<br>)</h1><h1 id="𝑒𝑧𝑖∑𝑗"><a href="#𝑒𝑧𝑖∑𝑗" class="headerlink" title="𝑒𝑧𝑖∑𝑗"></a>𝑒<br>𝑧<br>𝑖<br>∑<br>𝑗</h1><p>1<br>𝐶<br>𝑒<br>𝑧<br>𝑗<br>σ(z<br>i<br>​<br> )&#x3D;<br>∑<br>j&#x3D;1<br>C<br>​<br> e<br>z<br>j<br>​</p>
+<p>e<br>z<br>i<br>​<br>Softmax函数的特点：<br>归一化：Softmax函数的输出是一个概率分布，所有类别的概率之和为1。<br>区分度：它放大了原始分数之间的差异。如果一个类别的原始分数比其他类别的分数稍微高一点，经过Softmax函数转换后，这个类别的概率会比其他类别的概率高得多。<br>稳定性：当原始分数非常大或非常小的时候，Softmax函数能够稳定地输出概率值，避免数值计算问题。<br>应用场景：<br>多分类问题：在深度学习模型的输出层，用于将模型的预测输出转换为概率形式，以便于选择概率最高的类别作为预测结果。<br>概率解释：Softmax输出的概率可以用于概率解释和概率推断。<br>与Logistic回归的比较：<br>在二分类问题中，Softmax函数退化为Logistic函数（或称为Sigmoid函数），用于将原始分数转换为概率。而在多分类问题中，Softmax函数能够处理多个类别，输出一个概率分布。</p>
+<p>Softmax函数在深度学习框架中广泛使用，如TensorFlow、PyTorch等，它们提供了方便的Softmax实现，可以直接应用于模型的输出层。</p>
+]]></content>
   </entry>
   <entry>
     <title>文本测试</title>
